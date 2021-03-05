@@ -1,0 +1,67 @@
+.carousel-inner {
+    .carousel-item {
+        background-position: center;
+        background-size: cover;
+        background: green;
+        height: 48rem;
+        .container {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding-bottom: 10%;
+        }
+        .overlay-image1, .overlay-image2, .overlay-image3 {
+            position: absolute;
+            width: 100%;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            background-position: center;
+            background-size: cover;
+        }
+        .overlay-image1 {
+            background-image: url('./../../assets/img/sculpture.jpeg');
+        }
+        .overlay-image2 {
+            background-image: url('./../../assets/img/buddha.jpg');
+        }
+        .overlay-image3 {
+            background-image: url('./../../assets/img/tajmahal.jpg');
+        }
+    }
+}
+/*
+@media screen and (min-width: 1200px) {
+    .carousel-item {
+        padding-top: 40%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .carousel-item {
+        padding-top: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .carousel-item {
+        padding-top: 70%;
+    }
+}
+
+
+@media screen and (min-width: 468px) and (max-width: 768px) {
+    .carousel-item {
+        padding-top: 100%;
+    }
+}
+
+
+@media screen and (max-width: 468px) {
+    .carousel-item {
+        padding-top: 170%;
+    }
+}
+*/
