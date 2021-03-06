@@ -7,8 +7,27 @@
         font-family: 'Satisfy', cursive;
         font-size: 36px;
         line-height: 40px;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 65px;
+        padding-bottom: 35px;
+    }
+    .icons {
+        display: inline-block;
+        z-index: 10000;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        a {
+            padding-left: 1em;
+            font-size: 0.9em;
+            font-family: 'Lato', sans-serif;
+            color: #616161;
+            i {
+                font-size: 1.4em;
+                color: #212121;
+                position: relative;
+                top: 2px;
+            }
+        }
     }
 }
 
@@ -16,8 +35,8 @@
     background-color: #ffffff;
     box-shadow: 0px 4px 5px -2px #e0e0e0;
     top: -3px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
     color: #212121;
     .navbar-brand {
         font-family: 'Satisfy', cursive;
@@ -56,6 +75,15 @@
         a {
             color: #212121;
             font-size: 1.2em;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container-fluid {
+        h1 {
+            padding-top: 75px;
+            padding-bottom: 25px;
         }
     }
 }
