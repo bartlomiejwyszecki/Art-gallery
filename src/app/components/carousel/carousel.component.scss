@@ -2,16 +2,29 @@
     .carousel-item {
         background-position: center;
         background-size: cover;
-        background: green;
-        height: 48rem;
+        background: black;
         .container {
             position: absolute;
             bottom: 0;
             left: 0;
             right: 0;
             padding-bottom: 10%;
+            color: #ffffff;
+            text-shadow: 1px 1px 3px #212121;
+            text-align: center;
+            font-family: 'Lato', sans-serif;
+            font-size: 1.2em;
+            font-weight: 400;
+            h2 {
+                padding-bottom: 20px;
+                font-weight: 700;
+            }
+            span {
+                color: #ff8f00;
+                font-weight: 900;
+            }
         }
-        .overlay-image1, .overlay-image2, .overlay-image3 {
+        .overlay-image1, .overlay-image2, .overlay-image3, .overlay-image4 {
             position: absolute;
             width: 100%;
             top: 0;
@@ -20,48 +33,32 @@
             bottom: 0;
             background-position: center;
             background-size: cover;
+            opacity: 0.6;
         }
         .overlay-image1 {
-            background-image: url('./../../assets/img/sculpture.jpeg');
+            background-image: url('./../../assets/img/sculpture.jpg');
         }
         .overlay-image2 {
-            background-image: url('./../../assets/img/buddha.jpg');
+            background-image: url('./../../assets/img/painting.jpg');
         }
         .overlay-image3 {
-            background-image: url('./../../assets/img/tajmahal.jpg');
+            background-image: url('./../../assets/img/photo.jpg');
+        }
+        .overlay-image4 {
+            background-image: url('./../../assets/img/Artist.jpg');
         }
     }
 }
-/*
-@media screen and (min-width: 1200px) {
-    .carousel-item {
-        padding-top: 40%;
-    }
-}
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) {
     .carousel-item {
-        padding-top: 50%;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 992px) {
-    .carousel-item {
-        padding-top: 70%;
+        height: 48rem;
     }
 }
 
 
-@media screen and (min-width: 468px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .carousel-item {
-        padding-top: 100%;
+        height: 36rem;
     }
 }
-
-
-@media screen and (max-width: 468px) {
-    .carousel-item {
-        padding-top: 170%;
-    }
-}
-*/

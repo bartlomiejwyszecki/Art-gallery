@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CarouselComponent implements OnInit {
 
+  artists = 50;
+  
   constructor() { }
 
   ngOnInit(): void {
