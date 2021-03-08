@@ -5,12 +5,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { HomeComponent } from './components/home/home.component';
+import { SculpturesComponent } from './components/sculptures/sculptures.component';
+import { PaintingsComponent } from './components/paintings/paintings.component';
+import { PhotographyComponent } from './components/photography/photography.component';
+import { ArtistsComponent } from './components/artists/artists.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    CarouselComponent
+    CarouselComponent,
+    HomeComponent,
+    SculpturesComponent,
+    PaintingsComponent,
+    PhotographyComponent,
+    ArtistsComponent
   ],
   imports: [
     BrowserModule,
