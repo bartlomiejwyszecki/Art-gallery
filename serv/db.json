@@ -1,7 +1,20 @@
 {
   "sculptures": [
     {
-      
+      "id": 1,
+      "title": "Aphrodite of Knidos",
+      "author": "Praxiteles",
+      "src": "https://mymodernmet.com/wp/wp-content/uploads/2019/04/famous-sculptors-art-history-1.jpg",
+      "description": "Though it's difficult to know much about the great sculptors of ancient Greece, one name has stood the test of time. Thanks to the work of great authors like Pliny the Elder and Vitruvius, Praxiteles has become a name synonymous with ancient Greek sculpture. None of his original statues survived, but we are familiar with his work thanks to Roman copies of the originals. The Aphrodite of Knidos is his most well-known work and is the first example of a full-scale female figure portrayed in the nude. This work would go on to influence the way the female form was depicted in sculpture for centuries to come.",
+      "price": "199000000"
+    },
+    {
+      "id": 2,
+      "title": "Penitent Magdalene",
+      "author": "Donatello",
+      "src": "https://mymodernmet.com/wp/wp-content/uploads/2019/04/famous-sculptors-art-history-3.jpg",
+      "description": "Italian sculptor Donatello was fundamental in pushing forward art and culture during the Italian Renaissance. Primarily working in Florence, much of his work can still be found in the city today. His bronze David statue is the mark of a significant change in art, as it was the first free-standing nude since antiquity and marks the beginning of Renaissance sculpture. The astonishing realism of his wood Penitent Magdalene shows just how far ahead of his time Donatello was.",
+      "price": "129000000"
     }
   ],
   "categories": [

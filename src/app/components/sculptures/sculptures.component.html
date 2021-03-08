@@ -1,1 +1,3 @@
-<p>sculptures works!</p>
+<ul>
+    <li *ngFor="let s of sculptures | async">{{ s.title }}</li>
+</ul>
