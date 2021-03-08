@@ -5,7 +5,7 @@
     text-align: center;
     h1 {
         font-family: 'Satisfy', cursive;
-        font-size: 36px;
+        font-size: clamp(24px, 7.5vw, 32px);
         line-height: 40px;
         padding-top: 65px;
         padding-bottom: 35px;
@@ -18,14 +18,17 @@
         right: 10px;
         a {
             padding-left: 1em;
-            font-size: 0.9em;
+            font-size: 1em;
             font-family: 'Lato', sans-serif;
             color: #616161;
             i {
-                font-size: 1.4em;
+                font-size: 1.5em;
                 color: #212121;
                 position: relative;
                 top: 2px;
+            }
+            span {
+                padding-left: 0.3em;
             }
         }
     }
@@ -41,7 +44,7 @@
     .navbar-brand {
         font-family: 'Satisfy', cursive;
         font-weight: 400;
-        font-size: clamp(1.3em, 1.9vw, 1.8em);
+        font-size: clamp(1.3em, 1.6vw, 1.8em);
         display: none;
     }
     .navbar-toggler {

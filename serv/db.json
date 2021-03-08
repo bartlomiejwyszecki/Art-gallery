@@ -6,7 +6,8 @@
       "author": "Praxiteles",
       "src": "https://mymodernmet.com/wp/wp-content/uploads/2019/04/famous-sculptors-art-history-1.jpg",
       "description": "Though it's difficult to know much about the great sculptors of ancient Greece, one name has stood the test of time. Thanks to the work of great authors like Pliny the Elder and Vitruvius, Praxiteles has become a name synonymous with ancient Greek sculpture. None of his original statues survived, but we are familiar with his work thanks to Roman copies of the originals. The Aphrodite of Knidos is his most well-known work and is the first example of a full-scale female figure portrayed in the nude. This work would go on to influence the way the female form was depicted in sculpture for centuries to come.",
-      "price": "199000000"
+      "price": "199000000",
+      "category": "classical"
     },
     {
       "id": 2,
@@ -14,7 +15,308 @@
       "author": "Donatello",
       "src": "https://mymodernmet.com/wp/wp-content/uploads/2019/04/famous-sculptors-art-history-3.jpg",
       "description": "Italian sculptor Donatello was fundamental in pushing forward art and culture during the Italian Renaissance. Primarily working in Florence, much of his work can still be found in the city today. His bronze David statue is the mark of a significant change in art, as it was the first free-standing nude since antiquity and marks the beginning of Renaissance sculpture. The astonishing realism of his wood Penitent Magdalene shows just how far ahead of his time Donatello was.",
-      "price": "129000000"
+      "price": "129000000",
+      "category": "classical"
+    },
+    {
+      "id": 3,
+      "title": "Expansion",
+      "author": "Paige Bradley",
+      "src": "https://www.udesign.es/wp-content/uploads/2019/04/UD-SCULTURES-1.jpg",
+      "description": "To quote the artist “From the moment we are born, the world tends to have a container already built for us to fit inside: A social security number, a gender, a race, a profession or an I.Q. I ponder if we are more defined by the container we are in, rather than what we are inside. Would we recognise ourselves if we could expand beyond our bodies? Would we still be able to exist if we were authentically un-contained?",
+      "price": "121000",
+      "category": "modern"
+    },
+    {
+      "id": 4,
+      "title": "A man with no hope",
+      "author": "Alan Taki",
+      "src": "https://images.unsplash.com/photo-1580907121036-3f1a27994ace?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+      "description": "To quote the artist “From the moment we are born, the world tends to have a container already built for us to fit inside: A social security number, a gender, a race, a profession or an I.Q. I ponder if we are more defined by the container we are in, rather than what we are inside. Would we recognise ourselves if we could expand beyond our bodies? Would we still be able to exist if we were authentically un-contained?",
+      "price": "11000",
+      "category": "retro"
+    },
+    {
+      "id": 5,
+      "title": "Look at the heaven",
+      "author": "Mario Bonatelli",
+      "src": "https://images.unsplash.com/photo-1601913895233-055fb695acef?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+      "description": "To quote the artist “From the moment we are born, the world tends to have a container already built for us to fit inside: A social security number, a gender, a race, a profession or an I.Q. I ponder if we are more defined by the container we are in, rather than what we are inside. Would we recognise ourselves if we could expand beyond our bodies? Would we still be able to exist if we were authentically un-contained?",
+      "price": "24000",
+      "category": "retro"
+    },
+    {
+      "id": 6,
+      "title": "Colorful flower",
+      "author": "Todd Chavez",
+      "src": "https://images.unsplash.com/photo-1559329254-fa0514d2801a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+      "price": "3000",
+      "category": "modern"
+    },
+    {
+      "id": 7,
+      "title": "Beautiful man",
+      "author": "Michael de Angelo",
+      "src": "https://images.unsplash.com/photo-1574352067721-72d5913bd35c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+      "description": "Though it's difficult to know much about the great sculptors of ancient Greece, one name has stood the test of time. Thanks to the work of great authors like Pliny the Elder and Vitruvius, Praxiteles has become a name synonymous with ancient Greek sculpture. None of his original statues survived, but we are familiar with his work thanks to Roman copies of the originals. The Aphrodite of Knidos is his most well-known work and is the first example of a full-scale female figure portrayed in the nude. This work would go on to influence the way the female form was depicted in sculpture for centuries to come.",
+      "price": "89000000",
+      "category": "classical"
+    },
+    {
+      "id": 8,
+      "title": "Bella",
+      "author": "Punchinello",
+      "src": "https://images.unsplash.com/photo-1542194627-35fb6de8a829?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80",
+      "description": "Italian sculptor Donatello was fundamental in pushing forward art and culture during the Italian Renaissance. Primarily working in Florence, much of his work can still be found in the city today. His bronze David statue is the mark of a significant change in art, as it was the first free-standing nude since antiquity and marks the beginning of Renaissance sculpture. The astonishing realism of his wood Penitent Magdalene shows just how far ahead of his time Donatello was.",
+      "price": "9000000",
+      "category": "classical"
+    },
+    {
+      "id": 9,
+      "title": "&",
+      "author": "Arthuro Navarra",
+      "src": "https://images.unsplash.com/photo-1541982585238-14a4797a048b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+      "description": "To quote the artist “From the moment we are born, the world tends to have a container already built for us to fit inside: A social security number, a gender, a race, a profession or an I.Q. I ponder if we are more defined by the container we are in, rather than what we are inside. Would we recognise ourselves if we could expand beyond our bodies? Would we still be able to exist if we were authentically un-contained?",
+      "price": "27000",
+      "category": "modern"
+    },
+    {
+      "id": 10,
+      "title": "Like romanian soldier",
+      "author": "John Kinley",
+      "src": "https://images.unsplash.com/photo-1561390223-a3a7f2cf6ed9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+      "description": "To quote the artist “From the moment we are born, the world tends to have a container already built for us to fit inside: A social security number, a gender, a race, a profession or an I.Q. I ponder if we are more defined by the container we are in, rather than what we are inside. Would we recognise ourselves if we could expand beyond our bodies? Would we still be able to exist if we were authentically un-contained?",
+      "price": "42000",
+      "category": "retro"
+    },
+    {
+      "id": 11,
+      "title": "Fear of snakes",
+      "author": "Bruno Marsianinho",
+      "src": "https://images.unsplash.com/photo-1610655298979-8a607d39b281?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80",
+      "description": "To quote the artist “From the moment we are born, the world tends to have a container already built for us to fit inside: A social security number, a gender, a race, a profession or an I.Q. I ponder if we are more defined by the container we are in, rather than what we are inside. Would we recognise ourselves if we could expand beyond our bodies? Would we still be able to exist if we were authentically un-contained?",
+      "price": "52000",
+      "category": "retro"
+    },
+    {
+      "id": 12,
+      "title": "Strange times",
+      "author": "Jan Bukowski",
+      "src": "https://images.unsplash.com/photo-1564688201444-2647cdeb1ad0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+      "price": "32000",
+      "category": "modern"
+    },
+    {
+      "id": 13,
+      "title": "Aphrodite of Knidos",
+      "author": "Praxiteles",
+      "src": "https://mymodernmet.com/wp/wp-content/uploads/2019/04/famous-sculptors-art-history-1.jpg",
+      "description": "Though it's difficult to know much about the great sculptors of ancient Greece, one name has stood the test of time. Thanks to the work of great authors like Pliny the Elder and Vitruvius, Praxiteles has become a name synonymous with ancient Greek sculpture. None of his original statues survived, but we are familiar with his work thanks to Roman copies of the originals. The Aphrodite of Knidos is his most well-known work and is the first example of a full-scale female figure portrayed in the nude. This work would go on to influence the way the female form was depicted in sculpture for centuries to come.",
+      "price": "199000000",
+      "category": "classical"
+    },
+    {
+      "id": 14,
+      "title": "Penitent Magdalene",
+      "author": "Donatello",
+      "src": "https://mymodernmet.com/wp/wp-content/uploads/2019/04/famous-sculptors-art-history-3.jpg",
+      "description": "Italian sculptor Donatello was fundamental in pushing forward art and culture during the Italian Renaissance. Primarily working in Florence, much of his work can still be found in the city today. His bronze David statue is the mark of a significant change in art, as it was the first free-standing nude since antiquity and marks the beginning of Renaissance sculpture. The astonishing realism of his wood Penitent Magdalene shows just how far ahead of his time Donatello was.",
+      "price": "129000000",
+      "category": "classical"
+    },
+    {
+      "id": 15,
+      "title": "Expansion",
+      "author": "Paige Bradley",
+      "src": "https://www.udesign.es/wp-content/uploads/2019/04/UD-SCULTURES-1.jpg",
+      "description": "To quote the artist “From the moment we are born, the world tends to have a container already built for us to fit inside: A social security number, a gender, a race, a profession or an I.Q. I ponder if we are more defined by the container we are in, rather than what we are inside. Would we recognise ourselves if we could expand beyond our bodies? Would we still be able to exist if we were authentically un-contained?",
+      "price": "121000",
+      "category": "modern"
+    },
+    {
+      "id": 16,
+      "title": "A man with no hope",
+      "author": "Alan Taki",
+      "src": "https://images.unsplash.com/photo-1580907121036-3f1a27994ace?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+      "description": "To quote the artist “From the moment we are born, the world tends to have a container already built for us to fit inside: A social security number, a gender, a race, a profession or an I.Q. I ponder if we are more defined by the container we are in, rather than what we are inside. Would we recognise ourselves if we could expand beyond our bodies? Would we still be able to exist if we were authentically un-contained?",
+      "price": "11000",
+      "category": "retro"
+    },
+    {
+      "id": 17,
+      "title": "Look at the heaven",
+      "author": "Mario Bonatelli",
+      "src": "https://images.unsplash.com/photo-1601913895233-055fb695acef?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+      "description": "To quote the artist “From the moment we are born, the world tends to have a container already built for us to fit inside: A social security number, a gender, a race, a profession or an I.Q. I ponder if we are more defined by the container we are in, rather than what we are inside. Would we recognise ourselves if we could expand beyond our bodies? Would we still be able to exist if we were authentically un-contained?",
+      "price": "24000",
+      "category": "retro"
+    },
+    {
+      "id": 18,
+      "title": "Colorful flower",
+      "author": "Todd Chavez",
+      "src": "https://images.unsplash.com/photo-1559329254-fa0514d2801a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+      "price": "3000",
+      "category": "modern"
+    },
+    {
+      "id": 19,
+      "title": "Beautiful man",
+      "author": "Michael de Angelo",
+      "src": "https://images.unsplash.com/photo-1574352067721-72d5913bd35c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+      "description": "Though it's difficult to know much about the great sculptors of ancient Greece, one name has stood the test of time. Thanks to the work of great authors like Pliny the Elder and Vitruvius, Praxiteles has become a name synonymous with ancient Greek sculpture. None of his original statues survived, but we are familiar with his work thanks to Roman copies of the originals. The Aphrodite of Knidos is his most well-known work and is the first example of a full-scale female figure portrayed in the nude. This work would go on to influence the way the female form was depicted in sculpture for centuries to come.",
+      "price": "89000000",
+      "category": "classical"
+    },
+    {
+      "id": 20,
+      "title": "Bella",
+      "author": "Punchinello",
+      "src": "https://images.unsplash.com/photo-1542194627-35fb6de8a829?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80",
+      "description": "Italian sculptor Donatello was fundamental in pushing forward art and culture during the Italian Renaissance. Primarily working in Florence, much of his work can still be found in the city today. His bronze David statue is the mark of a significant change in art, as it was the first free-standing nude since antiquity and marks the beginning of Renaissance sculpture. The astonishing realism of his wood Penitent Magdalene shows just how far ahead of his time Donatello was.",
+      "price": "9000000",
+      "category": "classical"
+    },
+    {
+      "id": 21,
+      "title": "&",
+      "author": "Arthuro Navarra",
+      "src": "https://images.unsplash.com/photo-1541982585238-14a4797a048b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+      "description": "To quote the artist “From the moment we are born, the world tends to have a container already built for us to fit inside: A social security number, a gender, a race, a profession or an I.Q. I ponder if we are more defined by the container we are in, rather than what we are inside. Would we recognise ourselves if we could expand beyond our bodies? Would we still be able to exist if we were authentically un-contained?",
+      "price": "27000",
+      "category": "modern"
+    },
+    {
+      "id": 22,
+      "title": "Like romanian soldier",
+      "author": "John Kinley",
+      "src": "https://images.unsplash.com/photo-1561390223-a3a7f2cf6ed9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+      "description": "To quote the artist “From the moment we are born, the world tends to have a container already built for us to fit inside: A social security number, a gender, a race, a profession or an I.Q. I ponder if we are more defined by the container we are in, rather than what we are inside. Would we recognise ourselves if we could expand beyond our bodies? Would we still be able to exist if we were authentically un-contained?",
+      "price": "42000",
+      "category": "retro"
+    },
+    {
+      "id": 23,
+      "title": "Fear of snakes",
+      "author": "Bruno Marsianinho",
+      "src": "https://images.unsplash.com/photo-1610655298979-8a607d39b281?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80",
+      "description": "To quote the artist “From the moment we are born, the world tends to have a container already built for us to fit inside: A social security number, a gender, a race, a profession or an I.Q. I ponder if we are more defined by the container we are in, rather than what we are inside. Would we recognise ourselves if we could expand beyond our bodies? Would we still be able to exist if we were authentically un-contained?",
+      "price": "52000",
+      "category": "retro"
+    },
+    {
+      "id": 24,
+      "title": "Strange times",
+      "author": "Jan Bukowski",
+      "src": "https://images.unsplash.com/photo-1564688201444-2647cdeb1ad0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+      "price": "32000",
+      "category": "modern"
+    },
+    {
+      "id": 25,
+      "title": "Aphrodite of Knidos",
+      "author": "Praxiteles",
+      "src": "https://mymodernmet.com/wp/wp-content/uploads/2019/04/famous-sculptors-art-history-1.jpg",
+      "description": "Though it's difficult to know much about the great sculptors of ancient Greece, one name has stood the test of time. Thanks to the work of great authors like Pliny the Elder and Vitruvius, Praxiteles has become a name synonymous with ancient Greek sculpture. None of his original statues survived, but we are familiar with his work thanks to Roman copies of the originals. The Aphrodite of Knidos is his most well-known work and is the first example of a full-scale female figure portrayed in the nude. This work would go on to influence the way the female form was depicted in sculpture for centuries to come.",
+      "price": "199000000",
+      "category": "classical"
+    },
+    {
+      "id": 26,
+      "title": "Penitent Magdalene",
+      "author": "Donatello",
+      "src": "https://mymodernmet.com/wp/wp-content/uploads/2019/04/famous-sculptors-art-history-3.jpg",
+      "description": "Italian sculptor Donatello was fundamental in pushing forward art and culture during the Italian Renaissance. Primarily working in Florence, much of his work can still be found in the city today. His bronze David statue is the mark of a significant change in art, as it was the first free-standing nude since antiquity and marks the beginning of Renaissance sculpture. The astonishing realism of his wood Penitent Magdalene shows just how far ahead of his time Donatello was.",
+      "price": "129000000",
+      "category": "classical"
+    },
+    {
+      "id": 27,
+      "title": "Expansion",
+      "author": "Paige Bradley",
+      "src": "https://www.udesign.es/wp-content/uploads/2019/04/UD-SCULTURES-1.jpg",
+      "description": "To quote the artist “From the moment we are born, the world tends to have a container already built for us to fit inside: A social security number, a gender, a race, a profession or an I.Q. I ponder if we are more defined by the container we are in, rather than what we are inside. Would we recognise ourselves if we could expand beyond our bodies? Would we still be able to exist if we were authentically un-contained?",
+      "price": "121000",
+      "category": "modern"
+    },
+    {
+      "id": 28,
+      "title": "A man with no hope",
+      "author": "Alan Taki",
+      "src": "https://images.unsplash.com/photo-1580907121036-3f1a27994ace?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+      "description": "To quote the artist “From the moment we are born, the world tends to have a container already built for us to fit inside: A social security number, a gender, a race, a profession or an I.Q. I ponder if we are more defined by the container we are in, rather than what we are inside. Would we recognise ourselves if we could expand beyond our bodies? Would we still be able to exist if we were authentically un-contained?",
+      "price": "11000",
+      "category": "retro"
+    },
+    {
+      "id": 29,
+      "title": "Look at the heaven",
+      "author": "Mario Bonatelli",
+      "src": "https://images.unsplash.com/photo-1601913895233-055fb695acef?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+      "description": "To quote the artist “From the moment we are born, the world tends to have a container already built for us to fit inside: A social security number, a gender, a race, a profession or an I.Q. I ponder if we are more defined by the container we are in, rather than what we are inside. Would we recognise ourselves if we could expand beyond our bodies? Would we still be able to exist if we were authentically un-contained?",
+      "price": "24000",
+      "category": "retro"
+    },
+    {
+      "id": 30,
+      "title": "Colorful flower",
+      "author": "Todd Chavez",
+      "src": "https://images.unsplash.com/photo-1559329254-fa0514d2801a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+      "price": "3000",
+      "category": "modern"
+    },
+    {
+      "id": 31,
+      "title": "Beautiful man",
+      "author": "Michael de Angelo",
+      "src": "https://images.unsplash.com/photo-1574352067721-72d5913bd35c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+      "description": "Though it's difficult to know much about the great sculptors of ancient Greece, one name has stood the test of time. Thanks to the work of great authors like Pliny the Elder and Vitruvius, Praxiteles has become a name synonymous with ancient Greek sculpture. None of his original statues survived, but we are familiar with his work thanks to Roman copies of the originals. The Aphrodite of Knidos is his most well-known work and is the first example of a full-scale female figure portrayed in the nude. This work would go on to influence the way the female form was depicted in sculpture for centuries to come.",
+      "price": "89000000",
+      "category": "classical"
+    },
+    {
+      "id": 32,
+      "title": "Bella",
+      "author": "Punchinello",
+      "src": "https://images.unsplash.com/photo-1542194627-35fb6de8a829?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80",
+      "description": "Italian sculptor Donatello was fundamental in pushing forward art and culture during the Italian Renaissance. Primarily working in Florence, much of his work can still be found in the city today. His bronze David statue is the mark of a significant change in art, as it was the first free-standing nude since antiquity and marks the beginning of Renaissance sculpture. The astonishing realism of his wood Penitent Magdalene shows just how far ahead of his time Donatello was.",
+      "price": "9000000",
+      "category": "classical"
+    },
+    {
+      "id": 33,
+      "title": "&",
+      "author": "Arthuro Navarra",
+      "src": "https://images.unsplash.com/photo-1541982585238-14a4797a048b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+      "description": "To quote the artist “From the moment we are born, the world tends to have a container already built for us to fit inside: A social security number, a gender, a race, a profession or an I.Q. I ponder if we are more defined by the container we are in, rather than what we are inside. Would we recognise ourselves if we could expand beyond our bodies? Would we still be able to exist if we were authentically un-contained?",
+      "price": "27000",
+      "category": "modern"
+    },
+    {
+      "id": 34,
+      "title": "Like romanian soldier",
+      "author": "John Kinley",
+      "src": "https://images.unsplash.com/photo-1561390223-a3a7f2cf6ed9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+      "description": "To quote the artist “From the moment we are born, the world tends to have a container already built for us to fit inside: A social security number, a gender, a race, a profession or an I.Q. I ponder if we are more defined by the container we are in, rather than what we are inside. Would we recognise ourselves if we could expand beyond our bodies? Would we still be able to exist if we were authentically un-contained?",
+      "price": "42000",
+      "category": "retro"
+    },
+    {
+      "id": 35,
+      "title": "Fear of snakes",
+      "author": "Bruno Marsianinho",
+      "src": "https://images.unsplash.com/photo-1610655298979-8a607d39b281?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80",
+      "description": "To quote the artist “From the moment we are born, the world tends to have a container already built for us to fit inside: A social security number, a gender, a race, a profession or an I.Q. I ponder if we are more defined by the container we are in, rather than what we are inside. Would we recognise ourselves if we could expand beyond our bodies? Would we still be able to exist if we were authentically un-contained?",
+      "price": "52000",
+      "category": "retro"
+    },
+    {
+      "id": 36,
+      "title": "Strange times",
+      "author": "Jan Bukowski",
+      "src": "https://images.unsplash.com/photo-1564688201444-2647cdeb1ad0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+      "price": "32000",
+      "category": "modern"
     }
   ],
   "categories": [

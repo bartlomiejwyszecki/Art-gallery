@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { OnInit, Component, ViewChild } from '@angular/core';
 import { Observable } from 'rxjs';
 import { ArtObject } from 'src/app/models/models';
 import { SculpturesService } from 'src/app/services/sculptures/sculptures.service';
+import { NgxMasonryComponent } from 'ngx-masonry';
 
 @Component({
   selector: 'app-sculptures',
@@ -10,6 +11,8 @@ import { SculpturesService } from 'src/app/services/sculptures/sculptures.servic
 })
 export class SculpturesComponent implements OnInit {
   sculptures: Observable<ArtObject[]>;
+
+  @ViewChild(NgxMasonryComponent) masonry: NgxMasonryComponent;
 
   constructor(private http: SculpturesService) { }
 
