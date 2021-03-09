@@ -1,5 +1,6 @@
 .container-fluid {
-    padding: 5vw;
+    padding: 3vw;
+    font-family: 'Lato', sans-serif;
 }
 .items {
     .item {
@@ -9,26 +10,131 @@
         margin-bottom: 30px;
         break-inside: avoid;
         overflow: hidden;
+        .icons {
+            position: relative;
+            width: 100%;
+            display: none;
+            .cart, .heart {
+                position: absolute;
+                top: 10px;
+                width: 35px;
+                height: 30px;
+                border-radius: 7px;
+                background: #e0e0e0;
+                z-index: 10;
+                text-align: center;
+                margin: 5px;
+                color: #757575;
+                font-size: 0.9em;
+                a {
+                    line-height: 31px;
+                }
+            }
+            .cart {
+                right: 15px;
+                transition: 0.5s;
+            }
+            .cart:hover {
+                background: #fafafa;
+                color: #212121;
+                transition: 0.5s;
+            }
+            .heart {
+                right: 70px;
+                transition: 0.5s;
+            }
+            .heart:hover {
+                background: #fafafa;
+                color: #b71c1c;
+                transition: 0.5s;
+            }
+        }
+        .description {
+            position: relative;
+            display: none;
+            background: pink;
+            justify-content: space-between;
+            border-top: 1px solid white;
+            .details, .artist {
+                position: absolute;
+                z-index: 1000;
+                bottom: 15px;
+                display: flex;
+                justify-content: space-between;
+                font-size: 0.8em;
+            }
+            .artist {
+                left: 20px;
+                width: 50%;
+                display: flex;
+                font-weight: 500;
+                font-size: 1.1em;
+                color: #ffffff;
+                text-shadow: 1px 1px 5px #212121;
+            }
+            .details {
+                right: 20px;
+                height: 30px;
+                border-radius: 7px;
+                background: #e0e0e0;
+                line-height: 30px;
+                color: #757575;
+                a {
+                    margin-left: auto;
+                    margin-right: auto;
+                    span {
+                        margin-right: 10px;
+                    }
+                }
+            }
+            .details:hover {
+                color: #212121;
+                background: #fafafa;
+            }
+        }
+        .figcaption {
+            z-index: 100;
+            display: flex;
+            justify-content: space-between;
+            background: #fafafa;
+            h4 {
+                font-size: 16px;
+                padding: 8px 0 0 5px;
+            }
+            h5 {
+                font-size: 14px;
+                font-weight: 700;
+                padding: 10px 5px 0 0;
+            }
+        }
     }
     .item > img {
         grid-row: 1 / -1;
         grid-column: 1;
     }
     .item:hover {
+        .icons {
+            display: flex;
+        }
+        .description {
+            display: flex;
+        }
         img {
             filter: brightness(70%);
             transform: scale(1.05);
             overflow: hidden;
+            transition: 0.5s;
         }
     }
     img {
         max-width: 100%;
         display: block;
         z-index: 1;
+        transition: 0.5s;
     }
     figcaption {
         background: #fafafa;
-        z-index: 2;
+        z-index: 10;
     }
 }
 
@@ -37,12 +143,28 @@
         column-count: 3;
         column-gap: 60px;
     }
+    .details {
+        width: 90px;
+    }
 }
 
 @media screen and (max-width: 991px) and (min-width: 480px) {
+    .container-fluid {
+        padding: 30px;
+    }
     .items {
         column-count: 2;
-        column-gap: 20px;
+        column-gap: 30px;
+    }
+    .details {
+        width: 35px;
+        text-align: center;
+        a {
+            text-align: center;
+        }
+        span {
+            display: none;
+        }
     }
 }
 
