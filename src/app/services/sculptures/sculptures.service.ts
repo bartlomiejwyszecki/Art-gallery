@@ -3,7 +3,6 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { ArtObject } from './../../models/models';
-import { SculpturesModule } from 'src/app/components/sculptures/sculptures.module';
 
 @Injectable({
   providedIn: 'root'
@@ -16,5 +15,15 @@ export class SculpturesService {
 
   getSculptures(): Observable<ArtObject[]> {
     return this.HttpClient.get<ArtObject[]>(this.url);
+  }
+
+  getSculpturesFromCategory(cat: string): Observable<ArtObject[]> {
+    return this.getSculptures().pipe(
+      map(sculptures => sculptures.filter(s => s.category === cat))
+    );
+  }
+
+  getCategories(): Observable<string[]> {
+    return this.HttpClient.get<string[]>('http://localhost:3000/sculpturesCategories');
   }
 }

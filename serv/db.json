@@ -319,25 +319,8 @@
       "category": "classical"
     }
   ],
-  "categories": [
-    "Drama",
-    "Crime",
-    "Thriller",
-    "Action",
-    "Comedy",
-    "Romance",
-    "War",
-    "Western",
-    "Adventure",
-    "Sci-Fi",
-    "Animation",
-    "Family",
-    "Fantasy",
-    "Mystery",
-    "Horror",
-    "Biography",
-    "Music",
-    "Film-Noir"
+  "sculpturesCategories": [
+    "classical", "retro", "modern", "wooden"
   ],
   "years": [
     "1994",

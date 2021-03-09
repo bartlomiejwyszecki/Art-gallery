@@ -4,5 +4,6 @@ export interface ArtObject {
     author: string,
     src: string,
     description: string,
-    price: string
+    price: string,
+    category: string
 }
