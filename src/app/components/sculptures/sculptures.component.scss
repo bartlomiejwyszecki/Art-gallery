@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
 .container-fluid {
     padding: 3vw;
     font-family: 'Lato', sans-serif;
@@ -17,11 +19,11 @@
            display: inline;
            margin: 5px 8px 5px 8px;
            color: #212121;
-           background: #fafafa;
+           background: #f5f5f5;
            padding: 2px 10px 2px 10px;
            font-size: 1em;
            font-weight: 300;
-           box-shadow: 1px 1px 3px #bdbdbd;
+           box-shadow: 1px 1px 7px -3px #bdbdbd;
        }
        button:hover, button:focus, button:active, button:visited {
            background: #212121;

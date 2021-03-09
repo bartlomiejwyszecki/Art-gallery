@@ -1,10 +1,18 @@
 <div class="container" *ngIf="sculpture | async as s">
     <div class="row">
         <div class="item col-lg-8">
-            <img src="{{ s.src }}" alt="{{ s.title }}" style="max-width: 100%;">
+            <img src="{{ s.src }}" alt="{{ s.title }}" style="max-width: 100%;" class="center">
+            <figcaption>{{ s.title }}, by {{ s.author }}</figcaption>
         </div>
-        <div class="activities col-lg-4" style="max-width: 100%;">
-            <h1>Dodaj do koszyka</h1>
+        <div class="activities col-lg-4">
+            <h5>{{ s.price | currency: 'PLN ' }}</h5>
+            <button class="btn btn-outline-primary"><i class="bi bi-cart-plus-fill"></i> <span>Add to cart</span></button>
+            <button class="btn btn-outline-danger"><i class="bi bi-heart-fill"></i> <span>Leave heart</span></button>
+            <ul>
+                <li><i class="bi bi-check"></i><span>Artwork signed by artist</span></li>
+                <li><i class="bi bi-check"></i><span>Certificate of Authenticity included</span></li>
+                <li><i class="bi bi-check"></i><span>Returns Accepted 14 days</span></li>
+            </ul>
         </div>
     </div>
 </div>
