@@ -1,3 +1,10 @@
 <div class="container" *ngIf="sculpture | async as s">
-    <h1>{{ s.title }}</h1>
+    <div class="row">
+        <div class="item col-lg-8">
+            <img src="{{ s.src }}" alt="{{ s.title }}" style="max-width: 100%;">
+        </div>
+        <div class="activities col-lg-4" style="max-width: 100%;">
+            <h1>Dodaj do koszyka</h1>
+        </div>
+    </div>
 </div>

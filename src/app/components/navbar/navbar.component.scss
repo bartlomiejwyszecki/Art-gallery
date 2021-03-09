@@ -57,7 +57,12 @@
             .dropdown-toggle::after {
                 content: none;
             }
-            .dropdown-item {
+            a {
+                text-decoration: none;
+                color: #616161;
+            }
+            .activeRoute {
+                color: #212121;
             }
         }
     }

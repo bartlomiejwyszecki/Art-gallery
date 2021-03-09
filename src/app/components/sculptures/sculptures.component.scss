@@ -27,6 +27,7 @@
            background: #212121;
            color: #ffffff;
            outline: none;
+           border: none;
            font-weight: 400;
        }
        .sort {
@@ -123,18 +124,21 @@
                     border-radius: 7px;
                     background: #e0e0e0;
                     line-height: 30px;
-                    color: #757575;
                     a {
                         margin-left: auto;
                         margin-right: auto;
+                        text-decoration: none;
+                        color: #757575;
                         span {
                             margin-right: 10px;
                         }
                     }
                 }
                 .details:hover {
-                    color: #212121;
                     background: #fafafa;
+                    a {
+                        color: #212121;
+                    }
                 }
             }
             .figcaption {
