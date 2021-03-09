@@ -1,9 +1,30 @@
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-4 col-lg-3">
-            Kategorie
-            <button (click)="getAllSculptures()">All</button>
-            <button *ngFor="let c of categories | async" (click)="getCategory(c)">{{ c }}</button>
+        <div class="left col-md-4 col-lg-3">
+            <div class="categories">
+                <h2>Categories</h2>
+                <button (click)="getAllSculptures()">All</button>
+                <button *ngFor="let c of categories | async" (click)="getCategory(c)">{{ c }}</button>
+            </div>
+            <div class="artists">
+                <h2>Artists</h2>
+                <button (click)="getAllSculptures()">All</button>
+                <button *ngFor="let a of artists | async" (click)="getArtist(a)">{{ a }}</button>
+            </div>
+            <div class="sort">
+                <h2>Filters</h2>
+                <div class="dropdown show">
+                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Sort by
+                    </a>
+                  
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="items col-md-8 col-lg-9">
             <div class="item" *ngFor="let s of sculptures | async">

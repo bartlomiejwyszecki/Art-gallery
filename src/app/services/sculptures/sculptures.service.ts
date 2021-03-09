@@ -19,11 +19,21 @@ export class SculpturesService {
 
   getSculpturesFromCategory(cat: string): Observable<ArtObject[]> {
     return this.getSculptures().pipe(
-      map(sculptures => sculptures.filter(s => s.category === cat))
+      map(sculptures => sculptures.filter(s => s.category === cat.toLowerCase()))
     );
   }
 
   getCategories(): Observable<string[]> {
     return this.HttpClient.get<string[]>('http://localhost:3000/sculpturesCategories');
+  }
+
+  getArtists(): Observable<string[]> {
+    return this.HttpClient.get<string[]>(this.url + 'Artists');
+  }
+
+  getSculpturesFromArtists(artist: string): Observable<ArtObject[]> {
+    return this.getSculptures().pipe(
+      map(sculptures => sculptures.filter(s => s.author === artist))
+    )
   }
 }

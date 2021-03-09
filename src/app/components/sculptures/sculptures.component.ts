@@ -14,19 +14,27 @@ registerLocaleData(localePl, 'PLN ');
 export class SculpturesComponent implements OnInit {
   sculptures: Observable<ArtObject[]>;
   categories: Observable<string[]>;
+  artists: Observable<string[]>;
+  cat;
 
   constructor(private http: SculpturesService) { }
 
   ngOnInit() {
     this.sculptures = this.http.getSculptures();
     this.categories = this.http.getCategories();
+    this.artists = this.http.getArtists();
   }
 
   getCategory(cat: string) {
     this.sculptures = this.http.getSculpturesFromCategory(cat);
+    this.cat = cat;
   }
 
   getAllSculptures() {
     this.sculptures = this.http.getSculptures();
+  }
+
+  getArtist(artist: string) {
+    this.sculptures = this.http.getSculpturesFromArtists(artist);
   }
 }
