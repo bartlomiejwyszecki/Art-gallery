@@ -1,38 +1,48 @@
-.container {
-    padding: 50px 0 50px 0;
+.container-fluid {
+    padding: 5vw;
 }
 .items {
     .item {
         margin: 0;
         display: grid;
         grid-template-rows: 1fr auto;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
         break-inside: avoid;
-        border-radius: 25px;
-        background: red;
-      }
+        overflow: hidden;
+    }
     .item > img {
         grid-row: 1 / -1;
         grid-column: 1;
     }
+    .item:hover {
+        img {
+            filter: brightness(70%);
+            transform: scale(1.05);
+            overflow: hidden;
+        }
+    }
     img {
         max-width: 100%;
         display: block;
-        border-radius: 25px 25px 0px 0px;
+        z-index: 1;
+    }
+    figcaption {
+        background: #fafafa;
+        z-index: 2;
     }
 }
 
 @media screen and (min-width: 992px) {
     .items {
         column-count: 3;
-        column-gap: 10px;
+        column-gap: 60px;
     }
 }
 
 @media screen and (max-width: 991px) and (min-width: 480px) {
     .items {
         column-count: 2;
-        column-gap: 10px;
+        column-gap: 20px;
     }
 }
 
