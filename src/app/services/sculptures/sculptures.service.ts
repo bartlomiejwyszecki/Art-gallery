@@ -11,10 +11,10 @@ export class SculpturesService {
 
   private url = 'http://localhost:3000/sculptures';
 
-  constructor(private HttpClient: HttpClient) { }
+  constructor(private httpClient: HttpClient) { }
 
   getSculptures(): Observable<ArtObject[]> {
-    return this.HttpClient.get<ArtObject[]>(this.url);
+    return this.httpClient.get<ArtObject[]>(this.url);
   }
 
   getSculpturesFromCategory(cat: string): Observable<ArtObject[]> {
@@ -24,16 +24,20 @@ export class SculpturesService {
   }
 
   getCategories(): Observable<string[]> {
-    return this.HttpClient.get<string[]>('http://localhost:3000/sculpturesCategories');
+    return this.httpClient.get<string[]>('http://localhost:3000/sculpturesCategories');
   }
 
   getArtists(): Observable<string[]> {
-    return this.HttpClient.get<string[]>(this.url + 'Artists');
+    return this.httpClient.get<string[]>(this.url + 'Artists');
   }
 
   getSculpturesFromArtists(artist: string): Observable<ArtObject[]> {
     return this.getSculptures().pipe(
       map(sculptures => sculptures.filter(s => s.author === artist))
     )
+  }
+
+  getSculpture(id: string): Observable<ArtObject> {
+    return this.httpClient.get<ArtObject>(this.url + '/' + id);
   }
 }

@@ -44,7 +44,7 @@
                         <a>{{ s.author }}</a>
                     </div>
                     <div class="details">
-                        <a><span>Details </span><i class="bi bi-info-circle-fill"></i></a>
+                        <a [routerLink]="['/sculptures/sculpture', s.id]"><span>Details </span><i class="bi bi-info-circle-fill"></i></a>
                     </div>
                 </div>
                 <div class="figcaption">
