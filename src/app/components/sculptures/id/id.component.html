@@ -14,5 +14,23 @@
                 <li><i class="bi bi-check"></i><span>Returns Accepted 14 days</span></li>
             </ul>
         </div>
+        <div class="details col-lg-8">
+            <h2>{{ s.author }}</h2>
+            <h3>{{ s.title | uppercase }}</h3>
+            <table>
+                <tr>
+                    <th valign="top">STYLE</th>
+                    <td>{{ s.category }}</td>
+                </tr>
+                <tr>
+                    <th valign="top">DESCRIPTION</th>
+                    <td>{{ s.description }}</td>
+                </tr>
+                <tr>
+                    <th valign="top">OTHERS</th>
+                    <td>Here is a place for other details in description.</td>
+                </tr>
+            </table>
+        </div>
     </div>
 </div>

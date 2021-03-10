@@ -21,6 +21,7 @@
 
     }
     .activities {
+        margin-top: 10px;
         h5 {
             font-size: 1.4em;
             margin-bottom: 20px;
@@ -43,6 +44,27 @@
                 padding-bottom: 5px;
                 span {
                     padding-left: 15px;
+                }
+            }
+        }
+    }
+    .details {
+        margin-top: 30px;
+        h3 {
+            font-weight: 200;
+            letter-spacing: 2px;
+            margin-top: -10px;
+        }
+        table {
+            margin-top: 10px;
+            border-top: 1px solid #bdbdbd;
+            tr {
+                th, td {
+                    padding-top: 25px;
+                }
+                th {
+                    font-weight: 500;
+                    width: 25%;
                 }
             }
         }
