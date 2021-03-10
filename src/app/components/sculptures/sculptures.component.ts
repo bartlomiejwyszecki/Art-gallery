@@ -15,7 +15,6 @@ export class SculpturesComponent implements OnInit {
   sculptures: Observable<ArtObject[]>;
   categories: Observable<string[]>;
   artists: Observable<string[]>;
-  cat;
 
   constructor(private http: SculpturesService) { }
 
@@ -27,7 +26,6 @@ export class SculpturesComponent implements OnInit {
 
   getCategory(cat: string) {
     this.sculptures = this.http.getSculpturesFromCategory(cat);
-    this.cat = cat;
   }
 
   getAllSculptures() {
@@ -36,5 +34,13 @@ export class SculpturesComponent implements OnInit {
 
   getArtist(artist: string) {
     this.sculptures = this.http.getSculpturesFromArtists(artist);
+  }
+
+  priceHighest() {
+    this.sculptures = this.http.getSculpturesByHighestPrice();
+  }
+
+  priceLowest() {
+    this.sculptures = this.http.getSculpturesByLowestPrice();
   }
 }

@@ -40,4 +40,20 @@ export class SculpturesService {
   getSculpture(id: string): Observable<ArtObject> {
     return this.httpClient.get<ArtObject>(this.url + '/' + id);
   }
+
+  getSculpturesByHighestPrice(): Observable<ArtObject[]> {
+    return this.getSculptures().pipe(
+      map(sculptures => sculptures.sort((a, b) => {
+        return parseFloat(b.price) - parseFloat(a.price);
+      }))
+    )
+  }
+
+  getSculpturesByLowestPrice(): Observable<ArtObject[]> {
+    return this.getSculptures().pipe(
+      map(sculptures => sculptures.sort((a, b) => {
+        return parseFloat(a.price) - parseFloat(b.price);
+      }))
+    )
+  }
 }
