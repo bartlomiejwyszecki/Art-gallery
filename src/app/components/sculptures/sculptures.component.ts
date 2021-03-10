@@ -37,10 +37,10 @@ export class SculpturesComponent implements OnInit {
   }
 
   priceHighest() {
-    this.sculptures = this.http.getSculpturesByHighestPrice();
+    this.sculptures = this.http.getSculpturesByHighestPrice(this.sculptures);
   }
 
   priceLowest() {
-    this.sculptures = this.http.getSculpturesByLowestPrice();
+    this.sculptures = this.http.getSculpturesByLowestPrice(this.sculptures);
   }
 }
