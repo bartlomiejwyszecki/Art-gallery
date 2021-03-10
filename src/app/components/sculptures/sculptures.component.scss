@@ -158,6 +158,18 @@
                     font-weight: 700;
                     padding: 10px 5px 0 0;
                 }
+                h6 {
+                    font-size: 0.8em;
+                    padding: 0 0 0 5px;
+                    margin-top: -5px;
+                    color: #757575;
+                    font-weight: 400;
+                    span {
+                        color: #e57373;
+                        font-size: 1em;
+                        margin-right: 2px;
+                    }
+                }
             }
         }
         .item > img {

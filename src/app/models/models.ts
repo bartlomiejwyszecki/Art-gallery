@@ -5,5 +5,6 @@ export interface ArtObject {
     src: string,
     description: string,
     price: string,
-    category: string
+    category: string,
+    rating: string
 }

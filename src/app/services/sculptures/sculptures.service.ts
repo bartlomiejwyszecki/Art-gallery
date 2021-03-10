@@ -56,4 +56,12 @@ export class SculpturesService {
       }))
     )
   }
+
+  getSculpturesByRate(ar: Observable<ArtObject[]>): Observable<ArtObject[]> {
+    return ar.pipe(
+      map(sculptures => sculptures.sort((a, b) => {
+        return parseFloat(b.rating) - parseFloat(a.rating);
+      }))
+    )
+  }
 }

@@ -177,7 +177,8 @@
       "src": "https://images.unsplash.com/photo-1545830384-3a2061eb44ed?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=939&q=80",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquet fringilla tortor at condimentum. Mauris tempor condimentum est, a aliquet justo posuere hendrerit. Nulla auctor purus a ipsum varius luctus. Integer mollis tincidunt nulla, nec sollicitudin eros condimentum non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In finibus eros eget odio tempus, eget finibus massa convallis. Morbi ante lacus, tempus ut dapibus vel, gravida eu ligula. Cras nec fringilla mi, in sodales purus. Nulla purus diam, varius facilisis ipsum eget, feugiat vulputate massa.",
       "price": "12800",
-      "category": "modern"
+      "category": "modern",
+      "rating": "2"
     },
     {
       "id": 19,

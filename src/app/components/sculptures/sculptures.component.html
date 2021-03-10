@@ -19,9 +19,9 @@
                     </a>
                   
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                      <a class="dropdown-item" (click)="priceHighest()">price: highest</a>
-                      <a class="dropdown-item" (click)="priceLowest()">price: lowest</a>
-                      <a class="dropdown-item" href="#">heart rate</a>
+                      <a class="dropdown-item" (click)="getPriceHighest()">price: highest</a>
+                      <a class="dropdown-item" (click)="getPriceLowest()">price: lowest</a>
+                      <a class="dropdown-item" (click)="getHeartRate()">heart rate</a>
                     </div>
                 </div>
             </div>
@@ -50,6 +50,7 @@
                 <div class="figcaption">
                     <div class="title">
                         <h4>{{ s.title }}</h4>
+                        <h6><span><i class="bi bi-heart-fill"></i></span>{{ s.rating }}</h6>
                     </div>
                     <div class="price">
                         <h5>{{ s.price | currency: 'PLN ' }}</h5>
