@@ -16,8 +16,6 @@ export class SculpturesComponent implements OnInit, OnDestroy {
   categories: Observable<string[]>;
   artists: Observable<string[]>;
 
-  bool: boolean;
-
   constructor(private http: SculpturesService) { }
 
   ngOnInit() {
@@ -27,11 +25,11 @@ export class SculpturesComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
-    setInterval(() => {
+    setTimeout(() => { 
       for (let i = 1; i < 36; i++) {
-        this.changeAddRating(i);
-        console.log('You can add heart rate again.')
+      this.changeAddRating(i);
       }
+      console.log('You can add heart again.')
     }, 300000);
   }
 
