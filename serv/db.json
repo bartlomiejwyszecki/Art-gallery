@@ -24,7 +24,7 @@
       "id": 3,
       "title": "Expansion",
       "author": "Paige Bradley",
-      "src": "https://www.udesign.es/wp-content/uploads/2019/04/UD-SCULTURES-1.jpg",
+      "src": "https://images.squarespace-cdn.com/content/56ed2f7a20c64724c37194d0/1495317793979-O8BF1TJ019FJGKL0IVRD/PAIGGG.jpg?content-type=image%2Fjpeg",
       "description": "To quote the artist “From the moment we are born, the world tends to have a container already built for us to fit inside: A social security number, a gender, a race, a profession or an I.Q. I ponder if we are more defined by the container we are in, rather than what we are inside. Would we recognise ourselves if we could expand beyond our bodies? Would we still be able to exist if we were authentically un-contained?",
       "price": "121000",
       "category": "modern",
@@ -118,7 +118,7 @@
       "description": "To quote the artist “From the moment we are born, the world tends to have a container already built for us to fit inside: A social security number, a gender, a race, a profession or an I.Q. I ponder if we are more defined by the container we are in, rather than what we are inside. Would we recognise ourselves if we could expand beyond our bodies? Would we still be able to exist if we were authentically un-contained?",
       "price": "32000",
       "category": "modern",
-      "rating": "32"
+      "rating": "325"
     },
     {
       "id": 13,
@@ -138,7 +138,7 @@
       "description": "Italian sculptor Donatello was fundamental in pushing forward art and culture during the Italian Renaissance. Primarily working in Florence, much of his work can still be found in the city today. His bronze David statue is the mark of a significant change in art, as it was the first free-standing nude since antiquity and marks the beginning of Renaissance sculpture. The astonishing realism of his wood Penitent Magdalene shows just how far ahead of his time Donatello was.",
       "price": "98000000",
       "category": "classical",
-      "rating": "121"
+      "rating": "1212"
     },
     {
       "id": 15,
@@ -248,7 +248,7 @@
       "description": "Though it's difficult to know much about the great sculptors of ancient Greece, one name has stood the test of time. Thanks to the work of great authors like Pliny the Elder and Vitruvius, Praxiteles has become a name synonymous with ancient Greek sculpture. None of his original statues survived, but we are familiar with his work thanks to Roman copies of the originals. The Aphrodite of Knidos is his most well-known work and is the first example of a full-scale female figure portrayed in the nude. This work would go on to influence the way the female form was depicted in sculpture for centuries to come.",
       "price": "1000000",
       "category": "classical",
-      "rating": "89"
+      "rating": "93"
     },
     {
       "id": 26,
@@ -258,7 +258,7 @@
       "description": "Italian sculptor Donatello was fundamental in pushing forward art and culture during the Italian Renaissance. Primarily working in Florence, much of his work can still be found in the city today. His bronze David statue is the mark of a significant change in art, as it was the first free-standing nude since antiquity and marks the beginning of Renaissance sculpture. The astonishing realism of his wood Penitent Magdalene shows just how far ahead of his time Donatello was.",
       "price": "2000000",
       "category": "classical",
-      "rating": "101"
+      "rating": "102"
     },
     {
       "id": 27,
@@ -362,10 +362,36 @@
     }
   ],
   "sculpturesCategories": [
-    "Classical", "Retro", "Modern", "Wooden"
+    "Classical",
+    "Retro",
+    "Modern",
+    "Wooden"
   ],
   "sculpturesArtists": [
-    "Praxiteles", "Donatello", "Paige Bradley", "Alan Taki", "Mario Bonatelli", "Todd Chavez", "Michael de Angelo", "Punchinello", "Arthuro Navarra", "John Kinley", "Bruno Marsianinho", "Jan Bukowski", "Hugo Chieff", "Christopher Bossake", "Maria Kilińska", "Jacques Colbert", "Sasha Vladimirovitch", "Jean Pierre", "Antonio Bonderas", "Bangzy", "Rudolf Beef", "Jackie Lee", "Petr Janicek", "Galileos"
+    "Praxiteles",
+    "Donatello",
+    "Paige Bradley",
+    "Alan Taki",
+    "Mario Bonatelli",
+    "Todd Chavez",
+    "Michael de Angelo",
+    "Punchinello",
+    "Arthuro Navarra",
+    "John Kinley",
+    "Bruno Marsianinho",
+    "Jan Bukowski",
+    "Hugo Chieff",
+    "Christopher Bossake",
+    "Maria Kilińska",
+    "Jacques Colbert",
+    "Sasha Vladimirovitch",
+    "Jean Pierre",
+    "Antonio Bonderas",
+    "Bangzy",
+    "Rudolf Beef",
+    "Jackie Lee",
+    "Petr Janicek",
+    "Galileos"
   ],
   "years": [
     "1994",

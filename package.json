@@ -22,10 +22,8 @@
     "@angular/platform-browser-dynamic": "~11.0.9",
     "@angular/router": "~11.0.9",
     "@thisissoon/angular-masonry": "^1.2.0",
+    "bootstrap-icons": "^1.4.0",
     "imagesloaded": "^4.1.4",
-    "masonry-layout": "^4.2.2",
-    "ng-masonry-grid": "^1.3.0",
-    "ngx-masonry": "^11.0.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"

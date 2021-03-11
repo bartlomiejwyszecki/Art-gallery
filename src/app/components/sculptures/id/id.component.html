@@ -2,7 +2,7 @@
     <div class="row">
         <div class="item col-lg-8">
             <img src="{{ s.src }}" alt="{{ s.title }}" style="max-width: 100%;" class="center">
-            <figcaption>{{ s.title }}, by {{ s.author }}</figcaption>
+            <figcaption>{{ s.title }}, by {{ s.author }} <span>{{ s.rating }}<i class="bi bi-heart-fill"></i></span></figcaption>
         </div>
         <div class="activities col-lg-4">
             <h5>{{ s.price | currency: 'PLN ' }}</h5>

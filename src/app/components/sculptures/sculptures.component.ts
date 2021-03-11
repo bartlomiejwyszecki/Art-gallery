@@ -1,4 +1,4 @@
-import { OnInit, Component, ViewChild } from '@angular/core';
+import { OnInit, Component, ViewChild, ChangeDetectorRef } from '@angular/core';
 import { Observable } from 'rxjs';
 import { ArtObject } from 'src/app/models/models';
 import { SculpturesService } from 'src/app/services/sculptures/sculptures.service';
@@ -16,7 +16,9 @@ export class SculpturesComponent implements OnInit {
   categories: Observable<string[]>;
   artists: Observable<string[]>;
 
-  constructor(private http: SculpturesService) { }
+  constructor(private http: SculpturesService, private ref: ChangeDetectorRef) { 
+    this.ref.markForCheck();
+  }
 
   ngOnInit() {
     this.sculptures = this.http.getSculptures();
@@ -46,5 +48,17 @@ export class SculpturesComponent implements OnInit {
 
   getHeartRate() {
     this.sculptures = this.http.getSculpturesByRate(this.sculptures);
+  }
+
+  addStar(id, rating) {
+    const sculpture: Partial<ArtObject> = {
+      id: id,
+      rating: (Number(rating) + 1).toString()
+    }
+    this.http.patchStar(sculpture).subscribe(
+      () => {
+        console.log('Patch work');
+      }
+    );
   }
 }
