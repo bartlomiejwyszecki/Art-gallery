@@ -4,6 +4,7 @@ import { Observable } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 import { ArtObject } from 'src/app/models/models';
 import { SculpturesService } from 'src/app/services/sculptures/sculptures.service';
+import { SculpturesComponent } from '../sculptures.component';
 
 @Component({
   selector: 'app-sculpture-id',
@@ -22,4 +23,13 @@ export class SculptureIdComponent implements OnInit {
     )
   }
 
+  addStar(sculpture) {
+    if (sculpture.addRating === true) {
+      sculpture.rating = (Number(sculpture.rating) + 1).toString();
+      sculpture.addRating = false;
+    } else if(sculpture.addRating === false) {
+      alert('You already added one heart!');
+    }
+    this.http.patchStar(sculpture).subscribe();
+  }
 }

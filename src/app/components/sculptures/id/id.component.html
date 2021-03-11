@@ -7,7 +7,7 @@
         <div class="activities col-lg-4">
             <h5>{{ s.price | currency: 'PLN ' }}</h5>
             <button class="btn btn-outline-primary"><i class="bi bi-cart-plus-fill"></i> <span>Add to cart</span></button>
-            <button class="btn btn-outline-danger"><i class="bi bi-heart-fill"></i> <span>Leave heart</span></button>
+            <button class="btn btn-outline-danger" (click)="addStar(s)" [disabled]="s.addRating === false"><i class="bi bi-heart-fill"></i> <span>Leave heart</span></button>
             <ul>
                 <li><i class="bi bi-check"></i><span>Artwork signed by artist</span></li>
                 <li><i class="bi bi-check"></i><span>Certificate of Authenticity included</span></li>

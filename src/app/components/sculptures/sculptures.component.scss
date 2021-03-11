@@ -97,6 +97,12 @@
                     color: #b71c1c;
                     transition: 0.5s;
                 }
+                .disabled, .disabled:hover, .disabled:focus {
+                    cursor: not-allowed;
+                    background: #e0e0e0;
+                    color: #757575;
+                    opacity: 0.5;
+                }
             }
             .description {
                 position: relative;

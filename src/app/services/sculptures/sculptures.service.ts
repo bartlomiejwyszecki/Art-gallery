@@ -66,7 +66,6 @@ export class SculpturesService {
   }
 
   patchStar(sculpture: Partial<ArtObject>): Observable<ArtObject> {
-    return this.httpClient.patch<ArtObject>(this.url + '/' + sculpture.id, sculpture)
-      .pipe(tap(console.log));
+    return this.httpClient.patch<ArtObject>(this.url + '/' + sculpture.id, sculpture);
   }
 }

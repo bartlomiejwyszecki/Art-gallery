@@ -162,8 +162,8 @@
       "description": "To quote the artist “From the moment we are born, the world tends to have a container already built for us to fit inside: A social security number, a gender, a race, a profession or an I.Q. I ponder if we are more defined by the container we are in, rather than what we are inside. Would we recognise ourselves if we could expand beyond our bodies? Would we still be able to exist if we were authentically un-contained?",
       "price": "117000",
       "category": "modern",
-      "rating": "37",
-      "addRating": true
+      "rating": "38",
+      "addRating": false
     },
     {
       "id": 16,
@@ -173,8 +173,8 @@
       "description": "To quote the artist “From the moment we are born, the world tends to have a container already built for us to fit inside: A social security number, a gender, a race, a profession or an I.Q. I ponder if we are more defined by the container we are in, rather than what we are inside. Would we recognise ourselves if we could expand beyond our bodies? Would we still be able to exist if we were authentically un-contained?",
       "price": "8000",
       "category": "retro",
-      "rating": "12",
-      "addRating": true
+      "rating": "13",
+      "addRating": false
     },
     {
       "id": 17,
@@ -272,8 +272,8 @@
       "description": "Though it's difficult to know much about the great sculptors of ancient Greece, one name has stood the test of time. Thanks to the work of great authors like Pliny the Elder and Vitruvius, Praxiteles has become a name synonymous with ancient Greek sculpture. None of his original statues survived, but we are familiar with his work thanks to Roman copies of the originals. The Aphrodite of Knidos is his most well-known work and is the first example of a full-scale female figure portrayed in the nude. This work would go on to influence the way the female form was depicted in sculpture for centuries to come.",
       "price": "1000000",
       "category": "classical",
-      "rating": "97",
-      "addRating": true
+      "rating": "98",
+      "addRating": false
     },
     {
       "id": 26,
@@ -294,8 +294,8 @@
       "description": "To quote the artist “From the moment we are born, the world tends to have a container already built for us to fit inside: A social security number, a gender, a race, a profession or an I.Q. I ponder if we are more defined by the container we are in, rather than what we are inside. Would we recognise ourselves if we could expand beyond our bodies? Would we still be able to exist if we were authentically un-contained?",
       "price": "32000",
       "category": "modern",
-      "rating": "6",
-      "addRating": true
+      "rating": "7",
+      "addRating": false
     },
     {
       "id": 28,
@@ -305,8 +305,8 @@
       "description": "To quote the artist “From the moment we are born, the world tends to have a container already built for us to fit inside: A social security number, a gender, a race, a profession or an I.Q. I ponder if we are more defined by the container we are in, rather than what we are inside. Would we recognise ourselves if we could expand beyond our bodies? Would we still be able to exist if we were authentically un-contained?",
       "price": "17500",
       "category": "retro",
-      "rating": "12",
-      "addRating": true
+      "rating": "13",
+      "addRating": false
     },
     {
       "id": 29,
