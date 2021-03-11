@@ -33,7 +33,7 @@
                         <a><i class="bi bi-cart-plus-fill"></i></a>
                     </div>
                     <div class="heart">
-                        <a (click)="addStar(s.id, s.rating)"><i class="bi bi-heart-fill"></i></a>
+                        <a (click)="addStar(s)" [class.disabled]="true"><i class="bi bi-heart-fill"></i></a>
                     </div>
                 </div>
                 <div class="photo">

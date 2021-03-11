@@ -50,14 +50,20 @@ export class SculpturesComponent implements OnInit {
     this.sculptures = this.http.getSculpturesByRate(this.sculptures);
   }
 
-  addStar(id, rating) {
-    const sculpture: Partial<ArtObject> = {
+  addStar(sculpture) {
+    /*const sculpture: Partial<ArtObject> = {
       id: id,
       rating: (Number(rating) + 1).toString()
+    }*/
+    if (sculpture.addRating === true) {
+      sculpture.rating = (Number(sculpture.rating) + 1).toString();
+      sculpture.addRating = false;
+    } else if(sculpture.addRating === false) {
+      alert('You already added one heart!');
     }
     this.http.patchStar(sculpture).subscribe(
       () => {
-        console.log('Patch work');
+        console.log(sculpture.addRating);
       }
     );
   }

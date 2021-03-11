@@ -21,7 +21,6 @@ export class NavbarComponent implements OnDestroy {
   onScroll() {
     const offset = this.document.documentElement.scrollTop ||
       this.document.body.scrollTop || 0;
-    console.log(offset);
     offset > 130 ? this.check = true : this.check = false;
   }
 
