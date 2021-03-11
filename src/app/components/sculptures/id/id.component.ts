@@ -1,10 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute, ParamMap } from '@angular/router';
 import { Observable } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 import { ArtObject } from 'src/app/models/models';
 import { SculpturesService } from 'src/app/services/sculptures/sculptures.service';
-import { SculpturesComponent } from '../sculptures.component';
 
 @Component({
   selector: 'app-sculpture-id',

@@ -8,8 +8,8 @@
       "description": "Though it's difficult to know much about the great sculptors of ancient Greece, one name has stood the test of time. Thanks to the work of great authors like Pliny the Elder and Vitruvius, Praxiteles has become a name synonymous with ancient Greek sculpture. None of his original statues survived, but we are familiar with his work thanks to Roman copies of the originals. The Aphrodite of Knidos is his most well-known work and is the first example of a full-scale female figure portrayed in the nude. This work would go on to influence the way the female form was depicted in sculpture for centuries to come.",
       "price": "199000000",
       "category": "classical",
-      "rating": "299",
-      "addRating": false
+      "rating": "306",
+      "addRating": true
     },
     {
       "id": 2,
@@ -30,7 +30,7 @@
       "description": "To quote the artist “From the moment we are born, the world tends to have a container already built for us to fit inside: A social security number, a gender, a race, a profession or an I.Q. I ponder if we are more defined by the container we are in, rather than what we are inside. Would we recognise ourselves if we could expand beyond our bodies? Would we still be able to exist if we were authentically un-contained?",
       "price": "121000",
       "category": "modern",
-      "rating": "91",
+      "rating": "92",
       "addRating": true
     },
     {
@@ -42,7 +42,7 @@
       "price": "11000",
       "category": "retro",
       "rating": "15",
-      "addRating": false
+      "addRating": true
     },
     {
       "id": 5,
@@ -53,7 +53,7 @@
       "price": "24000",
       "category": "retro",
       "rating": "14",
-      "addRating": false
+      "addRating": true
     },
     {
       "id": 6,
@@ -64,7 +64,7 @@
       "price": "3000",
       "category": "modern",
       "rating": "8",
-      "addRating": false
+      "addRating": true
     },
     {
       "id": 7,
@@ -75,7 +75,7 @@
       "price": "89000000",
       "category": "classical",
       "rating": "172",
-      "addRating": false
+      "addRating": true
     },
     {
       "id": 8,
@@ -129,7 +129,7 @@
       "description": "To quote the artist “From the moment we are born, the world tends to have a container already built for us to fit inside: A social security number, a gender, a race, a profession or an I.Q. I ponder if we are more defined by the container we are in, rather than what we are inside. Would we recognise ourselves if we could expand beyond our bodies? Would we still be able to exist if we were authentically un-contained?",
       "price": "32000",
       "category": "modern",
-      "rating": "35",
+      "rating": "41",
       "addRating": false
     },
     {
@@ -140,7 +140,7 @@
       "description": "Though it's difficult to know much about the great sculptors of ancient Greece, one name has stood the test of time. Thanks to the work of great authors like Pliny the Elder and Vitruvius, Praxiteles has become a name synonymous with ancient Greek sculpture. None of his original statues survived, but we are familiar with his work thanks to Roman copies of the originals. The Aphrodite of Knidos is his most well-known work and is the first example of a full-scale female figure portrayed in the nude. This work would go on to influence the way the female form was depicted in sculpture for centuries to come.",
       "price": "101000000",
       "category": "classical",
-      "rating": "139",
+      "rating": "142",
       "addRating": true
     },
     {
@@ -163,7 +163,7 @@
       "price": "117000",
       "category": "modern",
       "rating": "38",
-      "addRating": false
+      "addRating": true
     },
     {
       "id": 16,
@@ -174,7 +174,7 @@
       "price": "8000",
       "category": "retro",
       "rating": "13",
-      "addRating": false
+      "addRating": true
     },
     {
       "id": 17,
@@ -272,8 +272,8 @@
       "description": "Though it's difficult to know much about the great sculptors of ancient Greece, one name has stood the test of time. Thanks to the work of great authors like Pliny the Elder and Vitruvius, Praxiteles has become a name synonymous with ancient Greek sculpture. None of his original statues survived, but we are familiar with his work thanks to Roman copies of the originals. The Aphrodite of Knidos is his most well-known work and is the first example of a full-scale female figure portrayed in the nude. This work would go on to influence the way the female form was depicted in sculpture for centuries to come.",
       "price": "1000000",
       "category": "classical",
-      "rating": "98",
-      "addRating": false
+      "rating": "101",
+      "addRating": true
     },
     {
       "id": 26,
@@ -283,7 +283,7 @@
       "description": "Italian sculptor Donatello was fundamental in pushing forward art and culture during the Italian Renaissance. Primarily working in Florence, much of his work can still be found in the city today. His bronze David statue is the mark of a significant change in art, as it was the first free-standing nude since antiquity and marks the beginning of Renaissance sculpture. The astonishing realism of his wood Penitent Magdalene shows just how far ahead of his time Donatello was.",
       "price": "2000000",
       "category": "classical",
-      "rating": "102",
+      "rating": "106",
       "addRating": true
     },
     {
@@ -294,8 +294,8 @@
       "description": "To quote the artist “From the moment we are born, the world tends to have a container already built for us to fit inside: A social security number, a gender, a race, a profession or an I.Q. I ponder if we are more defined by the container we are in, rather than what we are inside. Would we recognise ourselves if we could expand beyond our bodies? Would we still be able to exist if we were authentically un-contained?",
       "price": "32000",
       "category": "modern",
-      "rating": "7",
-      "addRating": false
+      "rating": "9",
+      "addRating": true
     },
     {
       "id": 28,
@@ -306,7 +306,7 @@
       "price": "17500",
       "category": "retro",
       "rating": "13",
-      "addRating": false
+      "addRating": true
     },
     {
       "id": 29,

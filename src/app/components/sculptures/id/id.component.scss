@@ -43,6 +43,10 @@
                 margin-left: 20px;
             }
         }
+        .btn:disabled {
+            cursor: not-allowed;
+            opacity: 0.3;
+        }
         ul {
             list-style: none;
             font-size: 0.8em;
