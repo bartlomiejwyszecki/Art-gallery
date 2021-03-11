@@ -1,4 +1,4 @@
-import { OnInit, Component, ViewChild, ChangeDetectorRef } from '@angular/core';
+import { OnInit, Component, ChangeDetectorRef } from '@angular/core';
 import { Observable } from 'rxjs';
 import { ArtObject } from 'src/app/models/models';
 import { SculpturesService } from 'src/app/services/sculptures/sculptures.service';
@@ -61,10 +61,6 @@ export class SculpturesComponent implements OnInit {
     } else if(sculpture.addRating === false) {
       alert('You already added one heart!');
     }
-    this.http.patchStar(sculpture).subscribe(
-      () => {
-        console.log(sculpture.addRating);
-      }
-    );
+    this.http.patchStar(sculpture).subscribe();
   }
 }
