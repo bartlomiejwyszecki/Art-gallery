@@ -31,7 +31,7 @@
       "price": "121000",
       "category": "modern",
       "rating": "93",
-      "addRating": false
+      "addRating": true
     },
     {
       "id": 4,
@@ -130,7 +130,7 @@
       "price": "32000",
       "category": "modern",
       "rating": "50",
-      "addRating": false
+      "addRating": true
     },
     {
       "id": 13,
@@ -195,8 +195,8 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquet fringilla tortor at condimentum. Mauris tempor condimentum est, a aliquet justo posuere hendrerit. Nulla auctor purus a ipsum varius luctus. Integer mollis tincidunt nulla, nec sollicitudin eros condimentum non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In finibus eros eget odio tempus, eget finibus massa convallis. Morbi ante lacus, tempus ut dapibus vel, gravida eu ligula. Cras nec fringilla mi, in sodales purus. Nulla purus diam, varius facilisis ipsum eget, feugiat vulputate massa.",
       "price": "12800",
       "category": "modern",
-      "rating": "2",
-      "addRating": true
+      "rating": "3",
+      "addRating": false
     },
     {
       "id": 19,
@@ -229,7 +229,7 @@
       "price": "14000",
       "category": "wooden",
       "rating": "35",
-      "addRating": false
+      "addRating": true
     },
     {
       "id": 22,
@@ -239,8 +239,8 @@
       "description": "To quote the artist “From the moment we are born, the world tends to have a container already built for us to fit inside: A social security number, a gender, a race, a profession or an I.Q. I ponder if we are more defined by the container we are in, rather than what we are inside. Would we recognise ourselves if we could expand beyond our bodies? Would we still be able to exist if we were authentically un-contained?",
       "price": "11900000",
       "category": "classical",
-      "rating": "141",
-      "addRating": true
+      "rating": "142",
+      "addRating": false
     },
     {
       "id": 23,
@@ -283,7 +283,7 @@
       "description": "Italian sculptor Donatello was fundamental in pushing forward art and culture during the Italian Renaissance. Primarily working in Florence, much of his work can still be found in the city today. His bronze David statue is the mark of a significant change in art, as it was the first free-standing nude since antiquity and marks the beginning of Renaissance sculpture. The astonishing realism of his wood Penitent Magdalene shows just how far ahead of his time Donatello was.",
       "price": "2000000",
       "category": "classical",
-      "rating": "106",
+      "rating": "107",
       "addRating": true
     },
     {

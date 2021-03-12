@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently \"json-server --watch sculptures.json --port 3000\" \"json-server --watch paintings.json --port 3001\""
+    "start": "concurrently \"json-server --watch sculptures.json --port 3000\" \"json-server --watch paintings.json --port 3001\" \"json-server --watch photography.json --port 3002\""
   },
   "keywords": [],
   "author": "",

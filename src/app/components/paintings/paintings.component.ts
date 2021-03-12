@@ -30,7 +30,7 @@ export class PaintingsComponent implements OnInit {
       this.changeAddRating(i);
       }
       console.log('You can add heart again.')
-    }, 300000);
+    }, 90000);
   }
 
   getCategory(cat: string) {
