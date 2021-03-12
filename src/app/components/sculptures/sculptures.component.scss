@@ -110,7 +110,6 @@
                 display: none;
                 background: pink;
                 justify-content: space-between;
-                border-top: 1px solid white;
                 .details, .artist {
                     position: absolute;
                     z-index: 1000;
@@ -185,10 +184,10 @@
         }
         .item:hover {
             .icons {
-                display: flex;
+                display: inline;
             }
             .description {
-                display: flex;
+                display: inline;
             }
             img {
                 filter: brightness(70%);

@@ -19,7 +19,7 @@ export class PaintingsService {
 
   getPaintingsFromCategory(cat: string): Observable<ArtObject[]> {
     return this.getPaintings().pipe(
-      map(sculptures => sculptures.filter(s => s.category === cat.toLowerCase()))
+      map(sculptures => sculptures.filter(s => s.category === cat))
     );
   }
 

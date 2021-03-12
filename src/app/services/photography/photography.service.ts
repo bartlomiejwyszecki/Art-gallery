@@ -19,7 +19,7 @@ export class PhotographyService {
 
   getPhotosFromCategory(cat: string): Observable<ArtObject[]> {
     return this.getPhotos().pipe(
-      map(objects => objects.filter(o => o.category === cat.toLowerCase()))
+      map(objects => objects.filter(o => o.category.toLowerCase() === cat.toLowerCase()))
     );
   }
 
