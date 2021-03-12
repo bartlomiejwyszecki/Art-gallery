@@ -1,1 +1,62 @@
-<p>photography works!</p>
+<div class="container-fluid">
+    <div class="row">
+        <div class="left col-md-4 col-lg-3">
+            <div class="categories">
+                <h2>Categories</h2>
+                <button (click)="getAllPhotos()">All</button>
+                <button *ngFor="let c of categories | async" (click)="getCategory(c)">{{ c }}</button>
+            </div>
+            <div class="artists">
+                <h2>Artists</h2>
+                <button (click)="getAllPhotos()">All</button>
+                <button *ngFor="let a of artists | async" (click)="getArtist(a)">{{ a }}</button>
+            </div>
+            <div class="sort">
+                <h2>Filters</h2>
+                <div class="dropdown show">
+                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Sort by
+                    </a>
+                  
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" (click)="getPriceHighest()">price: highest</a>
+                      <a class="dropdown-item" (click)="getPriceLowest()">price: lowest</a>
+                      <a class="dropdown-item" (click)="getHeartRate()">heart rate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="items col-md-8 col-lg-9">
+            <div class="item" *ngFor="let p of photos | async">
+                <div class="icons">
+                    <div class="cart">
+                        <a><i class="bi bi-cart-plus-fill"></i></a>
+                    </div>
+                    <div class="heart" [class.disabled]="p.addRating === false">
+                        <a (click)="addStar(p)"><i class="bi bi-heart-fill"></i></a>
+                    </div>
+                </div>
+                <div class="photo">
+                    <img src="{{ p.src }}" alt="{{ p.title }}" />
+                </div>
+                <div class="description">
+                    <div class="artist">
+                        <a>{{ p.author }}</a>
+                    </div>
+                    <div class="details">
+                        <a [routerLink]="['/photography/photo', p.id]"><span>Details </span><i class="bi bi-info-circle-fill"></i></a>
+                    </div>
+                </div>
+                <div class="figcaption">
+                    <div class="title">
+                        <h4>{{ p.title }}</h4>
+                        <h6><span><i class="bi bi-heart-fill"></i></span>{{ p.rating }}</h6>
+                    </div>
+                    <div class="price">
+                        <h5>{{ p.price | currency: 'PLN ' }}</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

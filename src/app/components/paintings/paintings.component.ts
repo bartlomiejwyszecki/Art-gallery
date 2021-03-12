@@ -11,7 +11,7 @@ registerLocaleData(localePl, 'PLN ');
   templateUrl: './paintings.component.html',
   styleUrls: ['./../sculptures/sculptures.component.scss']
 })
-export class PaintingsComponent implements OnInit {
+export class PaintingsComponent implements OnInit, OnDestroy {
   paintings: Observable<ArtObject[]>;
   categories: Observable<string[]>;
   artists: Observable<string[]>;

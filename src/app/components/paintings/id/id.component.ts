@@ -4,7 +4,6 @@ import { Observable } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 import { ArtObject } from 'src/app/models/models';
 import { PaintingsService } from 'src/app/services/paintings/paintings.service';
-import { SculpturesService } from 'src/app/services/sculptures/sculptures.service';
 
 @Component({
   selector: 'app-id',
