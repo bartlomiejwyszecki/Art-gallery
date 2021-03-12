@@ -30,7 +30,7 @@ export class SculpturesComponent implements OnInit, OnDestroy {
       this.changeAddRating(i);
       }
       console.log('You can add heart again.')
-    }, 300000);
+    }, 90000);
   }
 
   getCategory(cat: string) {

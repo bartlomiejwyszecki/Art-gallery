@@ -1,0 +1,36 @@
+<div class="container" *ngIf="painting | async as p">
+    <div class="row">
+        <div class="item col-lg-8">
+            <img src="{{ p.src }}" alt="{{ p.title }}" style="max-width: 100%;" class="center">
+            <figcaption>{{ p.title }}, by {{ p.author }} <span>{{ p.rating }}<i class="bi bi-heart-fill"></i></span></figcaption>
+        </div>
+        <div class="activities col-lg-4">
+            <h5>{{ p.price | currency: 'PLN ' }}</h5>
+            <button class="btn btn-outline-primary"><i class="bi bi-cart-plus-fill"></i> <span>Add to cart</span></button>
+            <button class="btn btn-outline-danger" (click)="addStar(p)" [disabled]="p.addRating === false"><i class="bi bi-heart-fill"></i> <span>Leave heart</span></button>
+            <ul>
+                <li><i class="bi bi-check"></i><span>Artwork signed by artist</span></li>
+                <li><i class="bi bi-check"></i><span>Certificate of Authenticity included</span></li>
+                <li><i class="bi bi-check"></i><span>Returns Accepted 14 days</span></li>
+            </ul>
+        </div>
+        <div class="details col-lg-8">
+            <h2>{{ p.author }}</h2>
+            <h3>{{ p.title | uppercase }}</h3>
+            <table>
+                <tr>
+                    <th valign="top">STYLE</th>
+                    <td>{{ p.category }}</td>
+                </tr>
+                <tr>
+                    <th valign="top">DESCRIPTION</th>
+                    <td>{{ p.description }}</td>
+                </tr>
+                <tr>
+                    <th valign="top">OTHERS</th>
+                    <td>Here is a place for other details in description.</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

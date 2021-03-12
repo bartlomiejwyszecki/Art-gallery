@@ -9,7 +9,7 @@
       "price": "199000000",
       "category": "classical",
       "rating": "312",
-      "addRating": false
+      "addRating": true
     },
     {
       "id": 2,
@@ -20,7 +20,7 @@
       "price": "129000000",
       "category": "classical",
       "rating": "213",
-      "addRating": false
+      "addRating": true
     },
     {
       "id": 3,
@@ -130,7 +130,7 @@
       "price": "32000",
       "category": "modern",
       "rating": "51",
-      "addRating": false
+      "addRating": true
     },
     {
       "id": 13,
@@ -141,7 +141,7 @@
       "price": "101000000",
       "category": "classical",
       "rating": "144",
-      "addRating": false
+      "addRating": true
     },
     {
       "id": 14,
@@ -152,7 +152,7 @@
       "price": "98000000",
       "category": "classical",
       "rating": "122",
-      "addRating": false
+      "addRating": true
     },
     {
       "id": 15,
@@ -273,7 +273,7 @@
       "price": "1000000",
       "category": "classical",
       "rating": "108",
-      "addRating": false
+      "addRating": true
     },
     {
       "id": 26,
@@ -284,7 +284,7 @@
       "price": "2000000",
       "category": "classical",
       "rating": "108",
-      "addRating": false
+      "addRating": true
     },
     {
       "id": 27,
@@ -295,7 +295,7 @@
       "price": "32000",
       "category": "modern",
       "rating": "10",
-      "addRating": false
+      "addRating": true
     },
     {
       "id": 28,
