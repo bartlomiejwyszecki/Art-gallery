@@ -36,12 +36,14 @@
 
 .navbar {
     background-color: #ffffff;
-    box-shadow: 0px 4px 5px -2px #e0e0e0;
+    box-shadow: 0px 4px 10px -9px #212121;
     top: -3px;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 1.1em;
     color: #212121;
+    padding-top: 0px;
+    padding-bottom: 0px;
     .navbar-brand {
         font-family: 'Satisfy', cursive;
         font-weight: 400;
@@ -54,7 +56,9 @@
         color: black;
     }
     ul {
+        line-height: 35px;
         li {
+            padding: 0 2vw 0 2vw;
             .dropdown-toggle::after {
                 content: none;
             }
@@ -85,6 +89,36 @@
         a {
             color: #212121;
             font-size: 1.2em;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .navbar {
+        .hover > .dropdown-menu {
+            max-height: 95vh;
+            visibility: visible;
+        }
+        .dropdown-menu {
+            border-top: none;
+            position: absolute;
+            top: 45px;
+            width: 200vw;
+            margin-left: -100vw;
+            padding-left: 100vw;
+            display: block;
+            max-height: 0;
+            visibility: hidden;
+            transition: all 0.5s linear;
+            overflow: hidden;
+            a {
+                width: 200vw;
+                margin-left: -100vw;
+                padding-left: 103vw;
+            }
+        }
+        .activeRoute {
+            border-bottom: 3px solid #212121;
         }
     }
 }

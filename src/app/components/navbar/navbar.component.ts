@@ -10,8 +10,9 @@ import { takeUntil } from 'rxjs/operators';
   changeDetection: ChangeDetectionStrategy.OnPush
 
 })
-export class NavbarComponent implements OnDestroy {
+export class NavbarComponent {
   check: boolean;
+  hover: boolean;
 
   constructor(
     @Inject (DOCUMENT) private document: Document
@@ -22,8 +23,5 @@ export class NavbarComponent implements OnDestroy {
     const offset = this.document.documentElement.scrollTop ||
       this.document.body.scrollTop || 0;
     offset > 130 ? this.check = true : this.check = false;
-  }
-
-  ngOnDestroy(): void {
   }
 }

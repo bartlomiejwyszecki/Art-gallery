@@ -251,7 +251,7 @@
       "price": "67749",
       "category": "People",
       "rating": "70",
-      "addRating": false
+      "addRating": true
     },
     {
       "id": 24,
@@ -339,7 +339,7 @@
       "price": "105861",
       "category": "Experimental",
       "rating": "6",
-      "addRating": false
+      "addRating": true
     },
     {
       "id": 32,
@@ -350,7 +350,7 @@
       "price": "862",
       "category": "Street photography",
       "rating": "14",
-      "addRating": false
+      "addRating": true
     },
     {
       "id": 33,
