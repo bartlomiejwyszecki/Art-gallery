@@ -1,5 +1,9 @@
 <div class="container-fluid">
-    <div class="row">
+    <div class="animation" *ngIf="!loaded">
+        <div class="lds-ripple"><div></div><div></div></div>
+        <h1>Loading</h1>
+    </div>
+    <div class="row" *ngIf="loaded">
         <div class="left col-md-4 col-lg-3">
             <div class="categories">
                 <h2>Categories</h2>

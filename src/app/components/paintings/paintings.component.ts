@@ -1,4 +1,4 @@
-import { OnInit, Component, OnDestroy } from '@angular/core';
+import { OnInit, Component, OnDestroy, AfterViewInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { ArtObject } from 'src/app/models/models';
 import { registerLocaleData } from '@angular/common';
@@ -11,10 +11,11 @@ registerLocaleData(localePl, 'PLN ');
   templateUrl: './paintings.component.html',
   styleUrls: ['./../sculptures/sculptures.component.scss']
 })
-export class PaintingsComponent implements OnInit, OnDestroy {
+export class PaintingsComponent implements OnInit, OnDestroy, AfterViewInit {
   paintings: Observable<ArtObject[]>;
   categories: Observable<string[]>;
   artists: Observable<string[]>;
+  loaded: boolean;
 
   constructor(private http: PaintingsService) { }
 
@@ -31,6 +32,12 @@ export class PaintingsComponent implements OnInit, OnDestroy {
       }
       console.log('You can add heart again.')
     }, 90000);
+  }
+
+  ngAfterViewInit() {
+    setTimeout(()=> {
+      this.loaded = true;
+    }, 2500);
   }
 
   getCategory(cat: string) {

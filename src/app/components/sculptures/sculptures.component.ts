@@ -15,6 +15,7 @@ export class SculpturesComponent implements OnInit, OnDestroy {
   sculptures: Observable<ArtObject[]>;
   categories: Observable<string[]>;
   artists: Observable<string[]>;
+  loaded: boolean;
 
   constructor(private http: SculpturesService) { }
 
@@ -31,6 +32,12 @@ export class SculpturesComponent implements OnInit, OnDestroy {
       }
       console.log('You can add heart again.')
     }, 90000);
+  }
+
+  ngAfterViewInit() {
+    setTimeout(()=> {
+      this.loaded = true;
+    }, 2500);
   }
 
   getCategory(cat: string) {
