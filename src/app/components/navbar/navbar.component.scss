@@ -119,6 +119,7 @@
         }
         .activeRoute {
             border-bottom: 3px solid #212121;
+            transition: 0.4s;
         }
     }
 }

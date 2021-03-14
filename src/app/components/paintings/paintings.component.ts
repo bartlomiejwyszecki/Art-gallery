@@ -16,6 +16,8 @@ export class PaintingsComponent implements OnInit, OnDestroy, AfterViewInit {
   categories: Observable<string[]>;
   artists: Observable<string[]>;
   loaded: boolean;
+  currentCategory: string = 'All';
+  currentArtist: string;
 
   constructor(private http: PaintingsService) { }
 
@@ -42,14 +44,26 @@ export class PaintingsComponent implements OnInit, OnDestroy, AfterViewInit {
 
   getCategory(cat: string) {
     this.paintings = this.http.getPaintingsFromCategory(cat);
+    this.currentCategory = cat;
+    this.currentArtist = '';
   }
 
   getAllPaintings() {
     this.paintings = this.http.getPaintings();
+    this.currentCategory = 'All';
+    this.currentArtist = '';
+  }
+
+  getAllArtists() {
+    this.paintings = this.http.getPaintings();
+    this.currentArtist = 'All';
+    this.currentCategory = '';
   }
 
   getArtist(artist: string) {
     this.paintings = this.http.getPaintingsFromArtists(artist);
+    this.currentArtist = artist;
+    this.currentCategory = '';
   }
 
   getPriceHighest() {

@@ -16,6 +16,8 @@ export class SculpturesComponent implements OnInit, OnDestroy {
   categories: Observable<string[]>;
   artists: Observable<string[]>;
   loaded: boolean;
+  currentCategory: string = 'All';
+  currentArtist: string;
 
   constructor(private http: SculpturesService) { }
 
@@ -42,14 +44,26 @@ export class SculpturesComponent implements OnInit, OnDestroy {
 
   getCategory(cat: string) {
     this.sculptures = this.http.getSculpturesFromCategory(cat);
+    this.currentCategory = cat;
+    this.currentArtist = '';
   }
 
   getAllSculptures() {
     this.sculptures = this.http.getSculptures();
+    this.currentCategory = 'All';
+    this.currentArtist = '';
+  }
+
+  getAllArtists() {
+    this.sculptures = this.http.getSculptures();
+    this.currentArtist = 'All';
+    this.currentCategory = '';
   }
 
   getArtist(artist: string) {
     this.sculptures = this.http.getSculpturesFromArtists(artist);
+    this.currentArtist = artist;
+    this.currentCategory = '';
   }
 
   getPriceHighest() {

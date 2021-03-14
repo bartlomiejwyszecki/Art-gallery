@@ -16,6 +16,8 @@ export class PhotographyComponent implements OnInit, OnDestroy, AfterViewInit {
   categories: Observable<string[]>;
   artists: Observable<string[]>;
   loaded: boolean;
+  currentCategory: string = 'All';
+  currentArtist: string;
 
   constructor(private http: PhotographyService) { }
 
@@ -42,14 +44,26 @@ export class PhotographyComponent implements OnInit, OnDestroy, AfterViewInit {
 
   getCategory(cat: string) {
     this.photos = this.http.getPhotosFromCategory(cat);
+    this.currentCategory = cat;
+    this.currentArtist = '';
   }
 
   getAllPhotos() {
     this.photos = this.http.getPhotos();
+    this.currentCategory = 'All';
+    this.currentArtist = '';
+  }
+
+  getAllArtists() {
+    this.photos = this.http.getPhotos();
+    this.currentArtist = 'All';
+    this.currentCategory = '';
   }
 
   getArtist(artist: string) {
     this.photos = this.http.getPhotosFromArtists(artist);
+    this.currentArtist = artist;
+    this.currentCategory = '';
   }
 
   getPriceHighest() {

@@ -25,7 +25,7 @@
            font-weight: 300;
            box-shadow: 1px 1px 8px -4px #bdbdbd;
        }
-       button:hover, button:focus, button:active, button:visited {
+       button:hover, button:focus, button:active, button:visited, button.selectedButton {
            background: #212121;
            color: #ffffff;
            outline: none;

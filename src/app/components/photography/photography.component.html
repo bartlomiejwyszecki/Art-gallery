@@ -7,13 +7,15 @@
         <div class="left col-md-4 col-lg-3">
             <div class="categories">
                 <h2>Categories</h2>
-                <button (click)="getAllPhotos()">All</button>
-                <button *ngFor="let c of categories | async" (click)="getCategory(c)">{{ c }}</button>
+                <button (click)="getAllPhotos()" [ngClass]="{'selectedButton': currentCategory === 'All'}">All</button>
+                <button *ngFor="let c of categories | async" (click)="getCategory(c)"
+                    [ngClass]="{'selectedButton': currentCategory === c}">{{ c }}</button>
             </div>
             <div class="artists">
                 <h2>Artists</h2>
-                <button (click)="getAllPhotos()">All</button>
-                <button *ngFor="let a of artists | async" (click)="getArtist(a)">{{ a }}</button>
+                <button (click)="getAllArtists()" [ngClass]="{'selectedButton': currentArtist === 'All'}">All</button>
+                <button *ngFor="let a of artists | async" (click)="getArtist(a)"
+                    [ngClass]="{'selectedButton': currentArtist === a}">{{ a }}</button>
             </div>
             <div class="sort">
                 <h2>Filters</h2>
