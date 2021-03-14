@@ -151,7 +151,7 @@
                 }
             }
             .figcaption {
-                z-index: 100;
+                z-index: 10;
                 display: flex;
                 justify-content: space-between;
                 background: #fafafa;
@@ -273,8 +273,13 @@
     text-align: center;
     color: #e0e0e0;
     position: fixed;
-    top: 45vh;
+    background: #fafafa;
+    z-index: 11;
+    top: 0;
+    left: 0;
+    padding-top: 45vh;
     width: 100vw;
+    height: 200vh;
     h1 {
         font-size: 1.5em;
         font-weight: 900;
