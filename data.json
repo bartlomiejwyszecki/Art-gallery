@@ -119,7 +119,7 @@
       "price": "76191",
       "category": "Modern",
       "rating": "2",
-      "addRating": false
+      "addRating": true
     },
     {
       "id": 12,
