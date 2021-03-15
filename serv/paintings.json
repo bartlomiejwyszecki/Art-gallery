@@ -185,7 +185,7 @@
       "price": "197350",
       "category": "Oil",
       "rating": "376",
-      "addRating": false
+      "addRating": true
     },
     {
       "id": 18,

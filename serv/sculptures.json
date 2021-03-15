@@ -130,7 +130,7 @@
       "price": "32000",
       "category": "modern",
       "rating": "53",
-      "addRating": false
+      "addRating": true
     },
     {
       "id": 13,
