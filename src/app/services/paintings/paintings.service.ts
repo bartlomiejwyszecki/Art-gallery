@@ -9,7 +9,8 @@ import { ArtObject } from './../../models/models';
 })
 export class PaintingsService {
 
-  private url = 'http://localhost:4600/paintings';
+  //private url = 'http://localhost:4600/paintings';
+  private url = '/api/paintings';
 
   constructor(private httpClient: HttpClient) { }
 
