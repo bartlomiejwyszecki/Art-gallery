@@ -8,7 +8,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean arcu felis, sollicitudin non tempus elementum, euismod vitae est. Ut hendrerit porttitor magna, vitae dictum orci consectetur et. Fusce neque est, rhoncus at pellentesque eu, finibus sed ante. Nunc ullamcorper porta erat sed vulputate. Aliquam erat volutpat. Phasellus blandit condimentum nisl, sed feugiat leo vulputate eget. Nam eu elit mollis, posuere odio a, blandit felis. Integer accumsan ut velit quis dapibus. In sodales, elit id dignissim maximus, felis nunc gravida mi, ut tristique ante erat a dolor. Ut non nisi feugiat, convallis elit a, suscipit dui. Phasellus dolor eros, mollis vel odio eu, dignissim maximus velit. Maecenas ullamcorper pulvinar nulla. Aenean sit amet lorem tempus, tempus ligula nec, laoreet sem.",
       "price": "42410",
       "category": "Modern",
-      "rating": "9",
+      "rating": "8",
       "addRating": true
     },
     {
@@ -19,7 +19,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean arcu felis, sollicitudin non tempus elementum, euismod vitae est. Ut hendrerit porttitor magna, vitae dictum orci consectetur et. Fusce neque est, rhoncus at pellentesque eu, finibus sed ante. Nunc ullamcorper porta erat sed vulputate. Aliquam erat volutpat. Phasellus blandit condimentum nisl, sed feugiat leo vulputate eget. Nam eu elit mollis, posuere odio a, blandit felis. Integer accumsan ut velit quis dapibus. In sodales, elit id dignissim maximus, felis nunc gravida mi, ut tristique ante erat a dolor. Ut non nisi feugiat, convallis elit a, suscipit dui. Phasellus dolor eros, mollis vel odio eu, dignissim maximus velit. Maecenas ullamcorper pulvinar nulla. Aenean sit amet lorem tempus, tempus ligula nec, laoreet sem.",
       "price": "218892",
       "category": "Oil",
-      "rating": "35",
+      "rating": "34",
       "addRating": true
     },
     {
@@ -151,7 +151,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean arcu felis, sollicitudin non tempus elementum, euismod vitae est. Ut hendrerit porttitor magna, vitae dictum orci consectetur et. Fusce neque est, rhoncus at pellentesque eu, finibus sed ante. Nunc ullamcorper porta erat sed vulputate. Aliquam erat volutpat. Phasellus blandit condimentum nisl, sed feugiat leo vulputate eget. Nam eu elit mollis, posuere odio a, blandit felis. Integer accumsan ut velit quis dapibus. In sodales, elit id dignissim maximus, felis nunc gravida mi, ut tristique ante erat a dolor. Ut non nisi feugiat, convallis elit a, suscipit dui. Phasellus dolor eros, mollis vel odio eu, dignissim maximus velit. Maecenas ullamcorper pulvinar nulla. Aenean sit amet lorem tempus, tempus ligula nec, laoreet sem.",
       "price": "185290",
       "category": "Portrait",
-      "rating": "863",
+      "rating": "862",
       "addRating": true
     },
     {
@@ -294,7 +294,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean arcu felis, sollicitudin non tempus elementum, euismod vitae est. Ut hendrerit porttitor magna, vitae dictum orci consectetur et. Fusce neque est, rhoncus at pellentesque eu, finibus sed ante. Nunc ullamcorper porta erat sed vulputate. Aliquam erat volutpat. Phasellus blandit condimentum nisl, sed feugiat leo vulputate eget. Nam eu elit mollis, posuere odio a, blandit felis. Integer accumsan ut velit quis dapibus. In sodales, elit id dignissim maximus, felis nunc gravida mi, ut tristique ante erat a dolor. Ut non nisi feugiat, convallis elit a, suscipit dui. Phasellus dolor eros, mollis vel odio eu, dignissim maximus velit. Maecenas ullamcorper pulvinar nulla. Aenean sit amet lorem tempus, tempus ligula nec, laoreet sem.",
       "price": "813",
       "category": "Oil",
-      "rating": "24",
+      "rating": "23",
       "addRating": true
     },
     {
@@ -316,7 +316,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean arcu felis, sollicitudin non tempus elementum, euismod vitae est. Ut hendrerit porttitor magna, vitae dictum orci consectetur et. Fusce neque est, rhoncus at pellentesque eu, finibus sed ante. Nunc ullamcorper porta erat sed vulputate. Aliquam erat volutpat. Phasellus blandit condimentum nisl, sed feugiat leo vulputate eget. Nam eu elit mollis, posuere odio a, blandit felis. Integer accumsan ut velit quis dapibus. In sodales, elit id dignissim maximus, felis nunc gravida mi, ut tristique ante erat a dolor. Ut non nisi feugiat, convallis elit a, suscipit dui. Phasellus dolor eros, mollis vel odio eu, dignissim maximus velit. Maecenas ullamcorper pulvinar nulla. Aenean sit amet lorem tempus, tempus ligula nec, laoreet sem.",
       "price": "17749",
       "category": "Portrait",
-      "rating": "66",
+      "rating": "65",
       "addRating": true
     },
     {
@@ -371,7 +371,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean arcu felis, sollicitudin non tempus elementum, euismod vitae est. Ut hendrerit porttitor magna, vitae dictum orci consectetur et. Fusce neque est, rhoncus at pellentesque eu, finibus sed ante. Nunc ullamcorper porta erat sed vulputate. Aliquam erat volutpat. Phasellus blandit condimentum nisl, sed feugiat leo vulputate eget. Nam eu elit mollis, posuere odio a, blandit felis. Integer accumsan ut velit quis dapibus. In sodales, elit id dignissim maximus, felis nunc gravida mi, ut tristique ante erat a dolor. Ut non nisi feugiat, convallis elit a, suscipit dui. Phasellus dolor eros, mollis vel odio eu, dignissim maximus velit. Maecenas ullamcorper pulvinar nulla. Aenean sit amet lorem tempus, tempus ligula nec, laoreet sem.",
       "price": "45546",
       "category": "Portrait",
-      "rating": "82",
+      "rating": "81",
       "addRating": true
     },
     {

@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "concurrently \"ng serve\" \"cd serv && npm start\"",
-    "build": "concurrently \"npm start\" \"ng build\"",
+    "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
@@ -24,7 +24,6 @@
     "bootstrap-icons": "^1.4.0",
     "concurrently": "^6.0.0",
     "imagesloaded": "^4.1.4",
-    "lite-server": "^2.6.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
