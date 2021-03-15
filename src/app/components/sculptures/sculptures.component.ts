@@ -33,7 +33,7 @@ export class SculpturesComponent implements OnInit, OnDestroy {
       this.changeAddRating(i);
       }
       console.log('You can add heart again.')
-    }, 90000);
+    }, 60000);
   }
 
   ngAfterViewInit() {

@@ -9,7 +9,7 @@ import { ArtObject } from './../../models/models';
 })
 export class PaintingsService {
 
-  private url = 'http://localhost:3001/paintings';
+  private url = 'http://localhost:4600/paintings';
 
   constructor(private httpClient: HttpClient) { }
 
@@ -24,7 +24,7 @@ export class PaintingsService {
   }
 
   getCategories(): Observable<string[]> {
-    return this.httpClient.get<string[]>('http://localhost:3001/paintingsCategories');
+    return this.httpClient.get<string[]>(this.url + 'Categories');
   }
 
   getArtists(): Observable<string[]> {

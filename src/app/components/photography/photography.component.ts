@@ -33,7 +33,7 @@ export class PhotographyComponent implements OnInit, OnDestroy, AfterViewInit {
       this.changeAddRating(i);
       }
       console.log('You can add heart again.')
-    }, 90000);
+    }, 60000);
   }
 
   ngAfterViewInit() {
