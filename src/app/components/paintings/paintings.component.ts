@@ -39,7 +39,7 @@ export class PaintingsComponent implements OnInit, OnDestroy, AfterViewInit {
   ngAfterViewInit() {
     setTimeout(()=> {
       this.loaded = true;
-    }, 2500);
+    }, 3000);
   }
 
   getCategory(cat: string) {

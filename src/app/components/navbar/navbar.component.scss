@@ -88,6 +88,9 @@
             }
         }
     }
+    .dropdown-item:hover, .dropdown-item:focus, .dropdown-item:active {
+        background: #e0e0e0;
+    }
     .search {
         display: flex;
         align-items: center;

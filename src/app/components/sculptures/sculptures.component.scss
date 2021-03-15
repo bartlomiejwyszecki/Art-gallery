@@ -271,7 +271,7 @@
 //ANIMATION
 .animation {
     text-align: center;
-    color: #e0e0e0;
+    color: #bdbdbd;
     position: fixed;
     background: #fafafa;
     z-index: 11;
@@ -323,13 +323,13 @@
   }
   @keyframes header {
       0% {
-          opacity: 0.9;
+          opacity: 0.8;
       }
       50% {
           opacity: 0.1
       }
       100% {
-          opacity: 0.9;
+          opacity: 0.8;
       }
   }
   
