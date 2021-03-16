@@ -36,7 +36,7 @@ npm start
 
 ## Online version
 
-To see live version without downloading file, click link below:
+To see live version without downloading a file, click link below:
 
 [Live version](https://art-gallery-angular.herokuapp.com/home)
 
