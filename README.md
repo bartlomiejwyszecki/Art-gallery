@@ -2,11 +2,11 @@
 
 Art gallery is a lazy-module, and http request (REST) based application, that lets user to watch gallery items, rate them, but in the future a user will be also able to add items to the cart, and log into a user panel. The backend imitation used in this project is json-server running in express, which is only storing database files, but in the near future the real backend will serve a node.js server. Gallery items layout is masonry on medium and big devices and normal on small devices.
 
-![Art gallery photography view](https://github.com/bartlomiejwyszecki/Art-gallery/blob/main/src/assets/art-gallery-1.png)
+![Art gallery photography view](https://github.com/bartlomiejwyszecki/Art-gallery/blob/master/src/assets/art-gallery-1.png)
 
 Routing in art-gallery is based on lazy-modules and it lets user navigate to a specific item detail component. Heart rating lets user to increase a heart number of an specific item, and then is blocking the buttons on 1 minute after user exits the component with items (this solution is temporary till node.js server will not be served).
 
-![Art gallery detail component view](https://github.com/bartlomiejwyszecki/Art-gallery/blob/main/src/assets/art-gallery-2.png)
+![Art gallery detail component view](https://github.com/bartlomiejwyszecki/Art-gallery/blob/master/src/assets/art-gallery-2.png)
 
 ## Technologies/tools used
 
